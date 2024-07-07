@@ -7,7 +7,7 @@ package mx.core
    public class BitmapAsset extends FlexBitmap implements IFlexAsset, IFlexDisplayObject
    {
       
-      mx_internal static const VERSION:String = "3.3.0.4852";
+      //mx_internal static const VERSION:String = "3.3.0.4852";
        
       
       public function BitmapAsset(param1:BitmapData = null, param2:String = "auto", param3:Boolean = false)
