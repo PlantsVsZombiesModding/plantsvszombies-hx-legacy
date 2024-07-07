@@ -2,7 +2,7 @@ package mx.core
 {
    import flash.display.BitmapData;
    
-   use namespace mx_internal;
+   //use namespace mx_internal;
    
    public class BitmapAsset extends FlexBitmap implements IFlexAsset, IFlexDisplayObject
    {

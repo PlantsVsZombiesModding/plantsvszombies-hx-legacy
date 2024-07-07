@@ -3,14 +3,14 @@ package mx.utils
    import flash.display.DisplayObject;
    import flash.utils.getQualifiedClassName;
    import mx.core.IRepeaterClient;
-   import mx.core.mx_internal;
+   //import mx.core.mx_internal;
    
-   use namespace mx_internal;
+   //use namespace mx_internal;
    
    public class NameUtil
    {
       
-      mx_internal static const VERSION:String = "3.3.0.4852";
+      //mx_internal static const VERSION:String = "3.3.0.4852";
       
       private static var counter:int = 0;
        
