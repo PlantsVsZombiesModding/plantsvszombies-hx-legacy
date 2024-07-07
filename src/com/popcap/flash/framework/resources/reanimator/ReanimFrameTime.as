@@ -12,7 +12,7 @@ package com.popcap.flash.framework.resources.reanimator
       
       public function ReanimFrameTime()
       {
-         super();
+         //super();
       }
       
       public function update(animTime:Number, startFrame:Number, frameCount:Number, hold:Boolean = false) : void

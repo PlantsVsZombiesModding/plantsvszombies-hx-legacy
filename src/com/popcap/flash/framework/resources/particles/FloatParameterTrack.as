@@ -8,7 +8,7 @@ package com.popcap.flash.framework.resources.particles
       
       public function FloatParameterTrack()
       {
-         super();
+         //super();
          this.mNodes = new Array();
       }
       

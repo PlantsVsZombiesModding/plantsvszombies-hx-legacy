@@ -15,7 +15,7 @@ package com.popcap.flash.framework.resources.fonts
       
       public function FontManager(param1:AppBase)
       {
-         super();
+         //super();
          this.mApp = param1;
          this.mFontTypeMap = new Dictionary();
          this.mFontDataMap = new Dictionary();

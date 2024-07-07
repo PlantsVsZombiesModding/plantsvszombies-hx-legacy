@@ -33,7 +33,7 @@ package com.popcap.flash.framework.utils
       
       public function Utils()
       {
-         super();
+         //super();
       }
       
       private static function splitText(str:String, font:FontInst, bounds:Rectangle) : Array

@@ -9,7 +9,7 @@ package com.popcap.flash.games.pvz.states.loading
       
       public function TitleScreenState_LOADBAR_DIRT_CLASS()
       {
-         super();
+         //super();
       }
    }
 }

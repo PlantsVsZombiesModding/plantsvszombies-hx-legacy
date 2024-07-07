@@ -6,7 +6,7 @@ package com.popcap.flash.framework.parsers.desc
       
       public function DataElement()
       {
-         super();
+         //super();
       }
    }
 }

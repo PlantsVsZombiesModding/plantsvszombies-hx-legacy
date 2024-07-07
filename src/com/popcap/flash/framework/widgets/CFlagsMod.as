@@ -10,7 +10,7 @@ package com.popcap.flash.framework.widgets
       
       public function CFlagsMod()
       {
-         super();
+         //super();
       }
       
       public static function getModFlags(param1:Number, param2:CFlagsMod) : Number

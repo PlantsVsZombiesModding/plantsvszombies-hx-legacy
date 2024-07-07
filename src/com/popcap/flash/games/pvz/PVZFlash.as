@@ -6,7 +6,7 @@ package com.popcap.flash.games.pvz
       
       public function PVZFlash()
       {
-         super();
+         //super();
          appWidth = stage.stageWidth;
          appHeight = stage.stageHeight;
          screenWidth = 540;

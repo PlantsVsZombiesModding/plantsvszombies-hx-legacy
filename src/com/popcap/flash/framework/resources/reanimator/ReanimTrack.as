@@ -12,7 +12,7 @@ package com.popcap.flash.framework.resources.reanimator
       
       public function ReanimTrack()
       {
-         super();
+         //super();
          this.name = "";
          this.transforms = new Array();
          this.numTransforms = 0;

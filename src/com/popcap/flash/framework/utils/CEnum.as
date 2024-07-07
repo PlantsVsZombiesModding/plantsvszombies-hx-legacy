@@ -10,7 +10,7 @@ package com.popcap.flash.framework.utils
       
       public function CEnum()
       {
-         super();
+         //super();
       }
       
       public static function InitEnumConstants(param1:*) : void

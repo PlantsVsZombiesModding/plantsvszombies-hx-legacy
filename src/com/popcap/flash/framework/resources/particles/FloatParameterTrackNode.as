@@ -16,7 +16,7 @@ package com.popcap.flash.framework.resources.particles
       
       public function FloatParameterTrackNode()
       {
-         super();
+         //super();
          this.mDistribution = CurveType.CONSTANT;
       }
       

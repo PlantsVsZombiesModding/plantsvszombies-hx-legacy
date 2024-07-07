@@ -94,7 +94,7 @@ package com.popcap.flash.games.pvz.states.loading
       public function TitleScreenState(app:PVZApp)
       {
          this.sproutTransforms = new Array();
-         super();
+         //super();
          this.app = app;
          this.reanims = new Array();
          this.startButton = new CButtonWidget(0,this);

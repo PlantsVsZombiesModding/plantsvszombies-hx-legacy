@@ -10,7 +10,7 @@ package com.popcap.flash.framework.resources.sound
       
       public function SoundDescriptor(param1:Class)
       {
-         super();
+         //super();
          this.mSoundClass = param1;
       }
       

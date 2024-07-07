@@ -20,7 +20,7 @@ package com.popcap.flash.framework.resources.foley
       
       public function FoleyFlags(flags:uint = 0)
       {
-         super();
+         //super();
          setFlags(flags);
       }
    }

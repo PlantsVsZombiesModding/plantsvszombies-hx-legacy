@@ -11,7 +11,7 @@ package com.popcap.flash.framework.resources.reanimator
       
       public function Reanimator(app:AppBase)
       {
-         super();
+         //super();
          this.mApp = app;
       }
       

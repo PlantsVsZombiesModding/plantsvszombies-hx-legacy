@@ -12,7 +12,7 @@ package com.popcap.flash.games.pvz.resources
       
       public function PVZResources()
       {
-         super();
+         //super();
          this.init();
       }
       

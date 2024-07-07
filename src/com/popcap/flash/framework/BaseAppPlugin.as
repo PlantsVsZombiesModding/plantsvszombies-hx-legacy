@@ -24,7 +24,7 @@ package com.popcap.flash.framework
       
       public function BaseAppPlugin(param1:AppBase, param2:XML)
       {
-         super();
+         //super();
          this.mApp = param1;
          this.mLoader = new Loader();
          var _loc3_:LoaderInfo = this.mLoader.contentLoaderInfo;

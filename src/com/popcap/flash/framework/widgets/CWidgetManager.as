@@ -76,7 +76,7 @@ package com.popcap.flash.framework.widgets
          this.lostFocusFlagsMod = new CFlagsMod();
          this.belowModalFlagsMod = new CFlagsMod();
          this.defaultBelowModalFlagsMod = new CFlagsMod();
-         super();
+         //super();
          this.app = param1;
          widgetManager = this;
          this.widgetFlags = WIDGETFLAGS_UPDATE | WIDGETFLAGS_DRAW | WIDGETFLAGS_CLIP | WIDGETFLAGS_ALLOW_MOUSE | WIDGETFLAGS_ALLOW_FOCUS;

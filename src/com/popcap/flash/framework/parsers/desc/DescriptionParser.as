@@ -6,7 +6,7 @@ package com.popcap.flash.framework.parsers.desc
       
       public function DescriptionParser()
       {
-         super();
+         //super();
       }
       
       public function parse(descriptor:String) : Array

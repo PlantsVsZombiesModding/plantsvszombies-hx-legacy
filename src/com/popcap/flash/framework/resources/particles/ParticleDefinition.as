@@ -10,7 +10,7 @@ package com.popcap.flash.framework.resources.particles
       
       public function ParticleDefinition()
       {
-         super();
+         //super();
          this.mEmitterDefs = new Array();
       }
    }

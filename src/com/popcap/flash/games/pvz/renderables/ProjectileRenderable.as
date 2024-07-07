@@ -14,7 +14,7 @@ package com.popcap.flash.games.pvz.renderables
       
       public function ProjectileRenderable(projectile:Projectile, depth:Number = 0)
       {
-         super();
+         //super();
          this.mProjectile = projectile;
          this.mDepth = depth;
       }

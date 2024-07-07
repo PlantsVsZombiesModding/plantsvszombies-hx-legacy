@@ -78,7 +78,7 @@ package com.popcap.flash.games.pvz.logic
       
       public function LawnMower(app:PVZApp, theBoard:Board, theRow:int)
       {
-         super();
+         //super();
          this.app = app;
          this.mBoard = theBoard;
          this.mRow = theRow;

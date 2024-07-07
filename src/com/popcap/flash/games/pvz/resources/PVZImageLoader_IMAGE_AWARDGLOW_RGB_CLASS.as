@@ -9,7 +9,7 @@ package com.popcap.flash.games.pvz.resources
       
       public function PVZImageLoader_IMAGE_AWARDGLOW_RGB_CLASS()
       {
-         super();
+         //super();
       }
    }
 }

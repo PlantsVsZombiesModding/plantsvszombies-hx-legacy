@@ -14,7 +14,7 @@ package com.popcap.flash.games.pvz.logic
       
       public function SmoothArray()
       {
-         super();
+         //super();
       }
    }
 }

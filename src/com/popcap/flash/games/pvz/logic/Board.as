@@ -636,7 +636,7 @@ package com.popcap.flash.games.pvz.logic
          this.mShovelButtonRect = new Rectangle(402,0,63,65);
          this.mHelpDisplayed = new Array();
          this.mRenderManager = new RenderManager();
-         super();
+         //super();
          app.registerCheat("refreshSeedsCheat",this.refreshSeedsCheat);
          app.registerCheat("spawnAwardCheat",this.spawnAwardCheat);
          app.registerCheat("freePlantingCheat",this.freePlantingCheat);

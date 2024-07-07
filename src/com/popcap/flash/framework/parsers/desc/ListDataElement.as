@@ -8,7 +8,7 @@ package com.popcap.flash.framework.parsers.desc
       
       public function ListDataElement()
       {
-         super();
+         //super();
          this.mElements = new Array();
       }
       

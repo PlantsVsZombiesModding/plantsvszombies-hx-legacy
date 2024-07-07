@@ -93,7 +93,7 @@ package com.popcap.flash.framework.widgets
          this.colors = new Array();
          this.mPolyShape = new Vector.<Point>();
          this.mBounds = new Rectangle();
-         super();
+         //super();
       }
       
       public function setColors(param1:Array) : void

@@ -25,7 +25,7 @@ package com.popcap.flash.framework.resources.fonts
       
       public function CharData()
       {
-         super();
+         //super();
          this.mCharCode = -1;
          this.mImageRect = new Rectangle();
          this.mOffset = new Point();

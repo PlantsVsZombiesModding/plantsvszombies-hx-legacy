@@ -9,7 +9,7 @@ package com.popcap.flash.games.pvz.resources
       
       public function PVZReanimLoader_REANIM_HAMMER_CLASS()
       {
-         super();
+         //super();
       }
    }
 }

@@ -44,7 +44,7 @@ package com.popcap.flash.games.pvz.logic
       
       public function ChallengeScreen(app:PVZApp, theBoard:Board)
       {
-         super();
+         //super();
          this.app = app;
          this.mBoard = theBoard;
          this.mStartButton = new ImageButtonWidget(this.StartGame,this);

@@ -12,7 +12,7 @@ package com.popcap.flash.framework.resources.particles
       
       public function ParticleField()
       {
-         super();
+         //super();
          this.mX = new FloatParameterTrack();
          this.mY = new FloatParameterTrack();
       }

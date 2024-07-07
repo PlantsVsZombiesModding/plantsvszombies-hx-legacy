@@ -67,7 +67,7 @@ package com.popcap.flash.games.pvz.logic.UI
       public function UpsellScreen(app:PVZApp, theType:int)
       {
          this.upsellXML = <data>DeluxeDownload</data>;
-         super();
+         //super();
          this.app = app;
          this.mURLRequest = new URLRequest(app.mUpsellLink);
          this.mBackToGameButton = new CButtonWidget(this.BackToGame,this);

@@ -19,7 +19,7 @@ package com.popcap.flash.games.pvz.renderables
       
       public function ReanimationRenderable(reanim:Reanimation, depth:Number, lerped:Boolean = false)
       {
-         super();
+         //super();
          this.mReanim = reanim;
          this.mDepth = depth;
          this.mLerped = lerped;

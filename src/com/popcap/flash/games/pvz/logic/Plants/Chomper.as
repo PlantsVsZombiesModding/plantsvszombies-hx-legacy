@@ -14,7 +14,7 @@ package com.popcap.flash.games.pvz.logic.Plants
       
       public function Chomper(theGridX:int, theGridY:int, theSeedType:int, app:PVZApp, theBoard:Board)
       {
-         super();
+         //super();
          this.app = app;
          mBoard = theBoard;
          mPlantCol = theGridX;

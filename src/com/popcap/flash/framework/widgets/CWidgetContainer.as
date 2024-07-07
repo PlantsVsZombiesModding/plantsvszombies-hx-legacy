@@ -41,7 +41,7 @@ package com.popcap.flash.framework.widgets
       public function CWidgetContainer()
       {
          this.widgets = new Array();
-         super();
+         //super();
          this.x = 0;
          this.y = 0;
          this.width = 0;

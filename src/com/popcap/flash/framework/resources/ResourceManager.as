@@ -23,7 +23,7 @@ package com.popcap.flash.framework.resources
       
       public function ResourceManager(param1:AppBase)
       {
-         super();
+         //super();
          this.mApp = param1;
          this.init();
       }

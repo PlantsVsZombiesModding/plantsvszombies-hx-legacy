@@ -64,7 +64,7 @@ package com.popcap.flash.games.pvz.resources
       
       public function PVZReanims()
       {
-         super();
+         //super();
       }
    }
 }

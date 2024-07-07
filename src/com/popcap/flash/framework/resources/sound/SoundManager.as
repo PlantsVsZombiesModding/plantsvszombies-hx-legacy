@@ -17,7 +17,7 @@ package com.popcap.flash.framework.resources.sound
       public function SoundManager(param1:AppBase)
       {
          this.mInstPool = new Array();
-         super();
+         //super();
          this.mApp = param1;
       }
       

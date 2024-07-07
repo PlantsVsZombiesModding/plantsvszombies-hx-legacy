@@ -12,7 +12,7 @@ package com.popcap.flash.framework.states
       
       public function CStateManager()
       {
-         super();
+         //super();
          this.states = new Object();
          this.stack = new Array();
       }

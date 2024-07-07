@@ -13,7 +13,7 @@ package com.popcap.flash.framework.resources.reanimator.looptypes
       
       public function ReanimLoopOnceAndIdle(idleTrack:String, idleRate:Number)
       {
-         super();
+         //super();
          this.mIdleTrack = idleTrack;
          this.mIdleRate = idleRate;
       }

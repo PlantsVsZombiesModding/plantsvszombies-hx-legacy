@@ -182,7 +182,7 @@ package com.popcap.flash.games.pvz.logic
       public function Coin()
       {
          this.mScaleMatrix = new Matrix();
-         super();
+         //super();
       }
       
       public function GetDisappearTime() : int

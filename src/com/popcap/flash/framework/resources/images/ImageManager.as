@@ -10,7 +10,7 @@ package com.popcap.flash.framework.resources.images
       
       public function ImageManager(param1:AppBase)
       {
-         super();
+         //super();
          this.mApp = param1;
       }
       

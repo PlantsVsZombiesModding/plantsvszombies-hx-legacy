@@ -9,7 +9,7 @@ package com.popcap.flash.games.pvz.resources
       
       public function PVZImageLoader_IMAGE_BLANK_ALPHA_CLASS()
       {
-         super();
+         //super();
       }
    }
 }

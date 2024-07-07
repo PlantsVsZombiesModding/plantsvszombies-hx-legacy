@@ -12,7 +12,7 @@ package mx.core
       
       public function SoundAsset()
       {
-         super();
+         //super();
       }
    }
 }

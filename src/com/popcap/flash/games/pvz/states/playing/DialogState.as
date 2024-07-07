@@ -14,7 +14,7 @@ package com.popcap.flash.games.pvz.states.playing
       
       public function DialogState(app:PVZApp)
       {
-         super();
+         //super();
          this.app = app;
       }
       

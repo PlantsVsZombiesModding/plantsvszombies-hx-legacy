@@ -17,7 +17,7 @@ package mx.utils
       
       public function NameUtil()
       {
-         super();
+         //super();
       }
       
       public static function displayObjectToString(param1:DisplayObject) : String

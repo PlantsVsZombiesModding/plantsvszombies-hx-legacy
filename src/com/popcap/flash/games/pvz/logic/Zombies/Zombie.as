@@ -352,7 +352,7 @@ package com.popcap.flash.games.pvz.logic.Zombies
          this.scratchDrawPos = new ZombieDrawPosition();
          this.mScratchMatrix = new Matrix();
          this.mZombieHitRect = new Rectangle();
-         super();
+         //super();
       }
       
       public function CheckForBoardEdge() : void

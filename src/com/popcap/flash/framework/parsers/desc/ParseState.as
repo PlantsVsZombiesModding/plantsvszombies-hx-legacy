@@ -10,7 +10,7 @@ package com.popcap.flash.framework.parsers.desc
       
       public function ParseState()
       {
-         super();
+         //super();
       }
       
       public function isEOF() : Boolean

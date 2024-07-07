@@ -66,7 +66,7 @@ package com.popcap.flash.games.pvz.logic
          this.mHugeWaveBounds = new Rectangle();
          this.mFinalWaveBounds = new Rectangle();
          this.mScreenBounds = new Rectangle(0,0,540,405);
-         super();
+         //super();
          this.mApp = app;
          var hugeWaveString:String = this.mApp.stringManager.translateString("[ADVICE_HUGE_WAVE]");
          var finalWaveString:String = this.mApp.stringManager.translateString("[ADVICE_FINAL_WAVE]");

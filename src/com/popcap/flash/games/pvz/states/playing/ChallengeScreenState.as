@@ -13,7 +13,7 @@ package com.popcap.flash.games.pvz.states.playing
       
       public function ChallengeScreenState(app:PVZApp)
       {
-         super();
+         //super();
          this.app = app;
       }
       

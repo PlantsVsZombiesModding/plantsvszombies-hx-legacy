@@ -75,7 +75,7 @@ package com.popcap.flash.framework.resources.particles
       public function ParticleEmitter()
       {
          this.mColorOverride = Color.ARGB(1,1,1,1);
-         super();
+         //super();
       }
       
       private function crossFadeParticle(particle:Particle, emitter:ParticleEmitter) : Boolean

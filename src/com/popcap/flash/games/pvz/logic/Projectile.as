@@ -87,7 +87,7 @@ package com.popcap.flash.games.pvz.logic
       
       public function Projectile()
       {
-         super();
+         //super();
          this.mImpactRect = new Rectangle();
       }
       

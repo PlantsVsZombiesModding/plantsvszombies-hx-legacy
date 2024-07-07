@@ -10,7 +10,7 @@ package com.popcap.flash.framework.render
       
       public function RenderManager()
       {
-         super();
+         //super();
          this.mItems = new Array();
       }
       

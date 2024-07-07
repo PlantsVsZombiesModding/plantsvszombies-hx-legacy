@@ -20,7 +20,7 @@ package com.popcap.flash.framework.widgets.ui
       
       public function CheckboxWidget(id:Number, checkedImage:ImageInst, uncheckedImage:ImageInst, listener:ICheckboxListener)
       {
-         super();
+         //super();
          this.mId = id;
          this.mCheckedImage = checkedImage;
          this.mUncheckedImage = uncheckedImage;

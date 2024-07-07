@@ -14,7 +14,7 @@ package com.popcap.flash.framework.graphics
       
       public function Color()
       {
-         super();
+         //super();
       }
       
       public static function add(param1:Color, param2:Color) : Color

@@ -40,7 +40,7 @@ package com.popcap.flash.framework.resources.particles
       
       public function ParticleRenderParams()
       {
-         super();
+         //super();
       }
    }
 }

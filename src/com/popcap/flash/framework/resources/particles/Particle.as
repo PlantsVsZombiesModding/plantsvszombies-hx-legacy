@@ -74,7 +74,7 @@ package com.popcap.flash.framework.resources.particles
       
       public function Particle()
       {
-         super();
+         //super();
          this.mPosition = new Point();
          this.mOffset = new Point();
          this.mVelocity = new Point();

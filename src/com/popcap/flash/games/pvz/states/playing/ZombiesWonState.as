@@ -47,7 +47,7 @@ package com.popcap.flash.games.pvz.states.playing
       {
          this.mImageBounds = new Rectangle();
          this.mScreenBounds = new Rectangle(0,0,540,405);
-         super();
+         //super();
          this.mApp = app;
       }
       

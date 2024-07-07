@@ -10,7 +10,7 @@ package com.popcap.flash.framework
       
       public function BaseAppServiceReference(param1:BaseAppPlugin, param2:BaseAppServiceRegistration)
       {
-         super();
+         //super();
          this.mPlugin = param1;
          this.mRegistration = param2;
       }

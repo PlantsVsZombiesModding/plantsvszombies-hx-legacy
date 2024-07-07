@@ -14,7 +14,7 @@ package com.popcap.flash.games.pvz.renderables
       
       public function GridItemRenderable(gridItem:GridItem, depth:Number = 0)
       {
-         super();
+         //super();
          this.mGridItem = gridItem;
          this.mDepth = depth;
       }

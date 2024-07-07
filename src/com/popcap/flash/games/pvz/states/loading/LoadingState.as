@@ -12,7 +12,7 @@ package com.popcap.flash.games.pvz.states.loading
       
       public function LoadingState(app:PVZApp)
       {
-         super();
+         //super();
          this.app = app;
       }
       

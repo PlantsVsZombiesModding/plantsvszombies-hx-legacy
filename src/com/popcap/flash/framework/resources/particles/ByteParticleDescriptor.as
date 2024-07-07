@@ -11,7 +11,7 @@ package com.popcap.flash.framework.resources.particles
       
       public function ByteParticleDescriptor(param1:ByteArray)
       {
-         super();
+         //super();
          this.mBytes = param1;
       }
       

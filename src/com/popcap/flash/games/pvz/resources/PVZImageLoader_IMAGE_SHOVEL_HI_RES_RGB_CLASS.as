@@ -9,7 +9,7 @@ package com.popcap.flash.games.pvz.resources
       
       public function PVZImageLoader_IMAGE_SHOVEL_HI_RES_RGB_CLASS()
       {
-         super();
+         //super();
       }
    }
 }

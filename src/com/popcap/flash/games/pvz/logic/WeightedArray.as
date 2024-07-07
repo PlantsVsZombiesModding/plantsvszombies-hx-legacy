@@ -10,7 +10,7 @@ package com.popcap.flash.games.pvz.logic
       
       public function WeightedArray()
       {
-         super();
+         //super();
       }
    }
 }

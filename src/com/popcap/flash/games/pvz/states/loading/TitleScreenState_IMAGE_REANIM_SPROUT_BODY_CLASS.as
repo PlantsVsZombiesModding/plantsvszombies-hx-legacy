@@ -9,7 +9,7 @@ package com.popcap.flash.games.pvz.states.loading
       
       public function TitleScreenState_IMAGE_REANIM_SPROUT_BODY_CLASS()
       {
-         super();
+         //super();
       }
    }
 }

@@ -50,7 +50,7 @@ package com.popcap.flash.games.pvz
       
       public function MSNAdAPI(app:AppBase)
       {
-         super();
+         //super();
          this.mApp = app;
          this.mApp.addUpdateHook(this.update);
       }

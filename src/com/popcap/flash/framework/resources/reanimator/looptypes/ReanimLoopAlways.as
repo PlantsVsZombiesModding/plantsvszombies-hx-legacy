@@ -9,7 +9,7 @@ package com.popcap.flash.framework.resources.reanimator.looptypes
       
       public function ReanimLoopAlways()
       {
-         super();
+         //super();
       }
       
       override public function updatePositive(reanim:Reanimation) : void

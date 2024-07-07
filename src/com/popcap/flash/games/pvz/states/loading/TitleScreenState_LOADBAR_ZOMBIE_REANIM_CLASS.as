@@ -9,7 +9,7 @@ package com.popcap.flash.games.pvz.states.loading
       
       public function TitleScreenState_LOADBAR_ZOMBIE_REANIM_CLASS()
       {
-         super();
+         //super();
       }
    }
 }

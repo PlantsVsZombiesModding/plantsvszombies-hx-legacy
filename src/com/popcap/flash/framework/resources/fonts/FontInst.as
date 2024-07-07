@@ -20,7 +20,7 @@ package com.popcap.flash.framework.resources.fonts
       public function FontInst(param1:FontData)
       {
          this.mColorTransform = new ColorTransform();
-         super();
+         //super();
          this.mData = param1;
          this.mScale = 1;
       }

@@ -11,7 +11,7 @@ package com.popcap.flash.framework.resources.reanimator.looptypes
       
       public function ReanimLoopOnceAndHold(callback:Function = null)
       {
-         super();
+         //super();
          this.mCallback = callback;
       }
       

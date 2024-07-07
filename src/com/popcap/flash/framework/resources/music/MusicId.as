@@ -6,7 +6,7 @@ package com.popcap.flash.framework.resources.music
       
       public function MusicId()
       {
-         super();
+         //super();
       }
    }
 }

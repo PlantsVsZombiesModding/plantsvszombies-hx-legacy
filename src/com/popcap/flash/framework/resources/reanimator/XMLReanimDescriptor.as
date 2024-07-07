@@ -17,7 +17,7 @@ package com.popcap.flash.framework.resources.reanimator
       
       public function XMLReanimDescriptor(bytes:ByteArray)
       {
-         super();
+         //super();
          this.mBytes = bytes;
       }
       

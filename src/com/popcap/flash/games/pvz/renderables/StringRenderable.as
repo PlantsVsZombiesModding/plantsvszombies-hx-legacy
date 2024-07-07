@@ -45,7 +45,7 @@ package com.popcap.flash.games.pvz.renderables
       
       public function StringRenderable(depth:Number = 0)
       {
-         super();
+         //super();
          this.mDepth = depth;
          this.mBounds = new Rectangle();
          this.mTextBounds = new Rectangle();

@@ -146,7 +146,7 @@ package com.popcap.flash.framework.resources.particles
          this.mClipLeft = new FloatParameterTrack();
          this.mClipRight = new FloatParameterTrack();
          this.mAnimationRate = new FloatParameterTrack();
-         super();
+         //super();
          this.mImageRow = 0;
          this.mImageCol = 0;
          this.mImageFrames = 1;

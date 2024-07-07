@@ -79,7 +79,7 @@ package com.popcap.flash.framework.resources.reanimator
          this.mFrameTime = new ReanimFrameTime();
          this.mLoopType = LOOP_TYPE_ALWAYS;
          this.mVisibleMap = new Dictionary();
-         super();
+         //super();
          this.mDefinition = definition;
          this.overrideColor = Color.ARGB(1,1,1,1);
          this.additiveColor = Color.ARGB(1,0,0,0);

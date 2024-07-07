@@ -69,7 +69,7 @@ package com.popcap.flash.framework.widgets.ui
          this.mOverOffset = new Point();
          this.mDownOffset = new Point();
          this.mDisableOffset = new Point();
-         super();
+         //super();
          this.mId = id;
          this.mUpImage = null;
          this.mOverImage = null;

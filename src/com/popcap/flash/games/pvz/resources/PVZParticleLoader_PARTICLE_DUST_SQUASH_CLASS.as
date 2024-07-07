@@ -9,7 +9,7 @@ package com.popcap.flash.games.pvz.resources
       
       public function PVZParticleLoader_PARTICLE_DUST_SQUASH_CLASS()
       {
-         super();
+         //super();
       }
    }
 }

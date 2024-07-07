@@ -6,7 +6,7 @@ package com.popcap.flash.framework
       
       public function AppUtils()
       {
-         super();
+         //super();
       }
       
       public static function asNumber(param1:String, param2:Number = 0) : Number

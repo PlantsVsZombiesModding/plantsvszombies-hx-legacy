@@ -23,7 +23,7 @@ package com.popcap.flash.framework.resources.strings
       
       public function StringManager(param1:AppBase)
       {
-         super();
+         //super();
          this.mApp = param1;
          this.mStrings = new Dictionary();
          this.mLoader = new URLLoader();

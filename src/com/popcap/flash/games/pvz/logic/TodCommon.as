@@ -56,7 +56,7 @@ package com.popcap.flash.games.pvz.logic
       
       public function TodCommon()
       {
-         super();
+         //super();
       }
       
       public static function ClampFloat(num:Number, minNum:Number, maxNum:Number) : Number

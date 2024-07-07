@@ -245,7 +245,7 @@ package com.popcap.flash.games.pvz.logic.Plants
       
       public function CPlant()
       {
-         super();
+         //super();
       }
       
       public function GetPlantAttackRect(thePlantWeapon:int) : Rectangle

@@ -43,7 +43,7 @@ package com.popcap.flash.framework.resources.fonts
       
       public function FontLayer()
       {
-         super();
+         //super();
          this.mCharData = new Array();
          this.mOffset = new Point();
          this.mSpacing = 0;

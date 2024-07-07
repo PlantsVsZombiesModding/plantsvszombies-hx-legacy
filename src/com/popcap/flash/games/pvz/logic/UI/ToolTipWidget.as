@@ -56,7 +56,7 @@ package com.popcap.flash.games.pvz.logic.UI
       
       public function ToolTipWidget(app:PVZApp, theBoard:Board)
       {
-         super();
+         //super();
          this.app = app;
          this.mBoard = theBoard;
          this.mX = 0;

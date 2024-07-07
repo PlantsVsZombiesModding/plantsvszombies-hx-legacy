@@ -12,7 +12,7 @@ package com.popcap.flash.framework.resources.sound
       
       public function SoundData(param1:Sound = null)
       {
-         super();
+         //super();
          this.mSource = param1;
       }
    }

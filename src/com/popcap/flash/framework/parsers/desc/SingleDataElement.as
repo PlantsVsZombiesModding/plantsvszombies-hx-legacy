@@ -10,7 +10,7 @@ package com.popcap.flash.framework.parsers.desc
       
       public function SingleDataElement()
       {
-         super();
+         //super();
       }
       
       public function toString() : String

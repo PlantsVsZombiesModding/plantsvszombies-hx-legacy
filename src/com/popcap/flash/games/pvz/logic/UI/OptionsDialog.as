@@ -87,7 +87,7 @@ package com.popcap.flash.games.pvz.logic.UI
          var font:FontInst = null;
          var aString:String = null;
          this.upsellXML = <data>DeluxeDownload</data>;
-         super();
+         //super();
          this.app = app;
          this.mBoard = theBoard;
          this.mURLRequest = new URLRequest(app.mUpsellLink);

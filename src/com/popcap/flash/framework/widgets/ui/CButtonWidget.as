@@ -74,7 +74,7 @@ package com.popcap.flash.framework.widgets.ui
       
       public function CButtonWidget(id:Number, listener:IButtonListener)
       {
-         super();
+         //super();
          this.mId = id;
          this.mFont = null;
          this.mLabelJustify = BUTTON_LABEL_CENTER;

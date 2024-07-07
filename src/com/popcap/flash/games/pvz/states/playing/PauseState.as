@@ -15,7 +15,7 @@ package com.popcap.flash.games.pvz.states.playing
       
       public function PauseState(app:PVZApp)
       {
-         super();
+         //super();
          this.mApp = app;
          this.mButton = new CButtonWidget(0,null);
          this.mButton.resize(0,0,this.mApp.screenWidth,this.mApp.screenHeight);

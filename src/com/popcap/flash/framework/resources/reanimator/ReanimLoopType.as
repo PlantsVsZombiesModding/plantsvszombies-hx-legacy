@@ -6,7 +6,7 @@ package com.popcap.flash.framework.resources.reanimator
       
       public function ReanimLoopType()
       {
-         super();
+         //super();
       }
       
       public function doHold() : Boolean

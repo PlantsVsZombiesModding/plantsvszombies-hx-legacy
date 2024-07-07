@@ -64,7 +64,7 @@ package com.popcap.flash.games.pvz.logic.UI
       
       public function DialogBox(app:PVZApp, theBoard:Board)
       {
-         super();
+         //super();
          this.app = app;
          this.mBoard = theBoard;
          this.mOkButton = new ImageButtonWidget(this.Menu_Ok,this);

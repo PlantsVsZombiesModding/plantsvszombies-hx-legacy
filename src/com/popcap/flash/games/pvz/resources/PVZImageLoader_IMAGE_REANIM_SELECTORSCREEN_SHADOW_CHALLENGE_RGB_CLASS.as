@@ -9,7 +9,7 @@ package com.popcap.flash.games.pvz.resources
       
       public function PVZImageLoader_IMAGE_REANIM_SELECTORSCREEN_SHADOW_CHALLENGE_RGB_CLASS()
       {
-         super();
+         //super();
       }
    }
 }

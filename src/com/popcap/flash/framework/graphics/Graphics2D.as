@@ -32,7 +32,7 @@ package com.popcap.flash.framework.graphics
       
       public function Graphics2D(param1:BitmapData)
       {
-         super();
+         //super();
          this.data = param1;
          this.stateStack = new Array();
          this.stackPos = 0;

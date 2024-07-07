@@ -14,7 +14,7 @@ package com.popcap.flash.games.pvz.renderables
       
       public function PlantRenderable(plant:CPlant, depth:Number = 0)
       {
-         super();
+         //super();
          this.mPlant = plant;
          this.mDepth = depth;
       }

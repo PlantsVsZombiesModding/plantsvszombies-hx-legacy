@@ -72,7 +72,7 @@ package com.popcap.flash.games.pvz.logic
       public function CursorPreview(app:PVZApp, theBoard:Board)
       {
          this.mSeedImages = new Array();
-         super();
+         //super();
          this.app = app;
          mBoard = theBoard;
          mX = 0;

@@ -49,7 +49,7 @@ package com.popcap.flash.games.pvz.logic
       
       public function CutScene(app:PVZApp, theBoard:Board)
       {
-         super();
+         //super();
          this.mApp = app;
          this.mBoard = theBoard;
          this.mCutsceneTime = 0;

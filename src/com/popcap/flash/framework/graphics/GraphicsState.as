@@ -16,7 +16,7 @@ package com.popcap.flash.framework.graphics
       
       public function GraphicsState()
       {
-         super();
+         //super();
          this.clipRect = new Rectangle();
          this.affineMatrix = new Matrix();
          this.font = null;

@@ -77,7 +77,7 @@ package com.popcap.flash.games.pvz.logic
       public function AwardScreen(app:PVZApp)
       {
          this.mRenderManager = new RenderManager();
-         super();
+         //super();
          this.app = app;
          this.mFadeInCounter = 180;
          this.mStartButton = new ImageButtonWidget(0,this);

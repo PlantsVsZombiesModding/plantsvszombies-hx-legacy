@@ -16,7 +16,7 @@ package com.popcap.flash.games.pvz.states.playing
       
       public function StartLevelState(app:PVZApp)
       {
-         super();
+         //super();
          this.app = app;
       }
       

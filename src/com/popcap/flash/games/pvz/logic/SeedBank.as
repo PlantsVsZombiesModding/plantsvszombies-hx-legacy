@@ -94,7 +94,7 @@ package com.popcap.flash.games.pvz.logic
       {
          this.mSeedPackets = new Array();
          this.mSunBounds = new Rectangle(11,59,40,15);
-         super();
+         //super();
          this.mSeedBankFont = app.fontManager.getFontInst(PVZFonts.FONT_CONTINUUMBOLD14);
          this.mSeedBankFont.scale = 0.8;
          mBoard = theBoard;

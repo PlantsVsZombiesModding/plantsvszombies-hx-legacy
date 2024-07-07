@@ -56,7 +56,7 @@ package com.popcap.flash.games.pvz.states.playing
       
       public function ReadySetStartState(app:PVZApp)
       {
-         super();
+         //super();
          this.mApp = app;
       }
       

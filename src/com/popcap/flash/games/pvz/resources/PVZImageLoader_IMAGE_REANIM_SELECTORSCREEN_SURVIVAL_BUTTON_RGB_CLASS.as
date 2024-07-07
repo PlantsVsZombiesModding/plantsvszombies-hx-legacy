@@ -9,7 +9,7 @@ package com.popcap.flash.games.pvz.resources
       
       public function PVZImageLoader_IMAGE_REANIM_SELECTORSCREEN_SURVIVAL_BUTTON_RGB_CLASS()
       {
-         super();
+         //super();
       }
    }
 }

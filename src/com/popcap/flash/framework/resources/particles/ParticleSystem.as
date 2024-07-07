@@ -16,7 +16,7 @@ package com.popcap.flash.framework.resources.particles
       
       public function ParticleSystem()
       {
-         super();
+         //super();
          this.mEmitterList = new Array();
       }
       

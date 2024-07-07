@@ -12,7 +12,7 @@ package com.popcap.flash.framework.resources.foley
       
       public function FoleyTypeData(type:FoleyType)
       {
-         super();
+         //super();
          this.mType = type;
       }
    }

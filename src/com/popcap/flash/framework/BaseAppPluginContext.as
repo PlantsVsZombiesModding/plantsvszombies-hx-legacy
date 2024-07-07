@@ -12,7 +12,7 @@ package com.popcap.flash.framework
       
       public function BaseAppPluginContext(param1:AppBase, param2:BaseAppPlugin)
       {
-         super();
+         //super();
          this.mApp = param1;
          this.mPlugin = param2;
       }

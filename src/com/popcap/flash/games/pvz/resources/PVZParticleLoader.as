@@ -128,7 +128,7 @@ package com.popcap.flash.games.pvz.resources
       
       public function PVZParticleLoader()
       {
-         super();
+         //super();
       }
       
       public static function init(param1:Dictionary) : void

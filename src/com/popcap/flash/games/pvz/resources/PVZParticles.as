@@ -124,7 +124,7 @@ package com.popcap.flash.games.pvz.resources
       
       public function PVZParticles()
       {
-         super();
+         //super();
       }
    }
 }

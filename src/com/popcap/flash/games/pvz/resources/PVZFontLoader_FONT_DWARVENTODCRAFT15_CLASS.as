@@ -9,7 +9,7 @@ package com.popcap.flash.games.pvz.resources
       
       public function PVZFontLoader_FONT_DWARVENTODCRAFT15_CLASS()
       {
-         super();
+         //super();
       }
    }
 }

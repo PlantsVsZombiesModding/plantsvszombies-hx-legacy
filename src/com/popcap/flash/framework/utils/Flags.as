@@ -8,7 +8,7 @@ package com.popcap.flash.framework.utils
       
       public function Flags()
       {
-         super();
+         //super();
       }
       
       public function clearFlags(flags:uint) : void

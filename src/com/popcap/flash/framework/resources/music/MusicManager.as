@@ -48,7 +48,7 @@ package com.popcap.flash.framework.resources.music
       
       public function MusicManager(param1:AppBase)
       {
-         super();
+         //super();
          this.mApp = param1;
          this.mIDs = new Array();
          this.mSongs = new Dictionary();

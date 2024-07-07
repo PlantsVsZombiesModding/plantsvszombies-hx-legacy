@@ -14,7 +14,7 @@ package com.popcap.flash.games.pvz.renderables
       
       public function ZombieRenderable(zombie:Zombie, depth:Number = 0)
       {
-         super();
+         //super();
          this.mZombie = zombie;
          this.mDepth = depth;
       }

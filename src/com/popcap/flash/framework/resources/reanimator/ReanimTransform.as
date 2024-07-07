@@ -33,7 +33,7 @@ package com.popcap.flash.framework.resources.reanimator
       
       public function ReanimTransform()
       {
-         super();
+         //super();
          this.tX = NaN;
          this.tY = NaN;
          this.kX = NaN;

@@ -78,7 +78,7 @@ package com.popcap.flash.games.pvz.logic
       public function CursorObject(app:PVZApp, theBoard:Board)
       {
          this.mSeedImages = new Array();
-         super();
+         //super();
          this.mCoin = null;
          this.mCursorType = CURSOR_TYPE_NORMAL;
          this.cursorState = STATE_EMPTY;

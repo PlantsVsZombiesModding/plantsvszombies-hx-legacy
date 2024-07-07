@@ -9,7 +9,7 @@ package com.popcap.flash.games.pvz.resources
       
       public function PVZParticleLoader_PARTICLE_ZOMBIEFOOTBALLHEAD_CLASS()
       {
-         super();
+         //super();
       }
    }
 }

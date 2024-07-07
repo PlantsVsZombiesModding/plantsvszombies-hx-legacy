@@ -9,7 +9,7 @@ package com.popcap.flash.games.pvz.resources
       
       public function PVZSoundLoader_SOUND_LIMBS_POP5_CLASS()
       {
-         super();
+         //super();
       }
    }
 }

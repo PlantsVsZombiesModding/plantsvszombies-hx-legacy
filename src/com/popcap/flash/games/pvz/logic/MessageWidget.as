@@ -84,7 +84,7 @@ package com.popcap.flash.games.pvz.logic
       
       public function MessageWidget(app:PVZApp, theBoard:Board)
       {
-         super();
+         //super();
          this.app = app;
          this.mBoard = theBoard;
          this.mDuration = 0;

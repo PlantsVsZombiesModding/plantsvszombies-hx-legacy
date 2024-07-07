@@ -14,7 +14,7 @@ package com.popcap.flash.framework.widgets
       
       public function CPreModalInfo()
       {
-         super();
+         //super();
       }
    }
 }

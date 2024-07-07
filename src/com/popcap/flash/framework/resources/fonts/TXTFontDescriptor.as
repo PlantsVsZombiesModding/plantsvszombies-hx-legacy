@@ -29,7 +29,7 @@ package com.popcap.flash.framework.resources.fonts
       
       public function TXTFontDescriptor(fontClazz:Class, imageClazzes:Array)
       {
-         super();
+         //super();
          this.mFontClazz = fontClazz;
          this.mImageClazzes = imageClazzes;
       }

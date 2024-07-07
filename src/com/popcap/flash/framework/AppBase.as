@@ -148,7 +148,7 @@ package com.popcap.flash.framework
          this.mCheats = new Dictionary(true);
          this.mCheatBindings = new Dictionary();
          this.mUpdateHooks = new Array();
-         super();
+         //super();
          if(param1 == null || param1.length == 0)
          {
             throw new ArgumentError("You must specify an application id.");

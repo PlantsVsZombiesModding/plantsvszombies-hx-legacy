@@ -102,7 +102,7 @@ package com.popcap.flash.games.pvz.states.mainmenu
       
       public function MainMenuState(app:PVZApp)
       {
-         super();
+         //super();
          this.app = app;
       }
       

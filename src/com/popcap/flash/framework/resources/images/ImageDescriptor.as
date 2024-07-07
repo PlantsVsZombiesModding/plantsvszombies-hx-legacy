@@ -24,7 +24,7 @@ package com.popcap.flash.framework.resources.images
       
       public function ImageDescriptor(param1:Class = null, param2:Class = null, param3:Number = 1, param4:Number = 1)
       {
-         super();
+         //super();
          this.mRGBClass = param1;
          this.mAlphaClass = param2;
          this.mRows = param3;

@@ -16,7 +16,7 @@ package com.popcap.flash.framework.resources.reanimator
       
       public function ReanimDefinition()
       {
-         super();
+         //super();
          this.fps = 0;
          this.tracks = new Array();
          this.trackNameMap = new Dictionary();

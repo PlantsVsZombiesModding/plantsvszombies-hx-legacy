@@ -9,7 +9,7 @@ package com.popcap.flash.games.pvz.resources
       
       public function PVZSoundLoader_SOUND_GRASSSTEP_CLASS()
       {
-         super();
+         //super();
       }
    }
 }

@@ -22,7 +22,7 @@ package com.popcap.flash.framework.resources.sound
       
       public function SoundInst()
       {
-         super();
+         //super();
          this.mTrans = new SoundTransform();
       }
       

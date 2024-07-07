@@ -22,7 +22,7 @@ package com.popcap.flash.games.pvz.logic
       
       public function HitResult()
       {
-         super();
+         //super();
       }
    }
 }

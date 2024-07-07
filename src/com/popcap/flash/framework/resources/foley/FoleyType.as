@@ -12,7 +12,7 @@ package com.popcap.flash.framework.resources.foley
       
       public function FoleyType(pitchRange:Number, variations:Array, flags:FoleyFlags)
       {
-         super();
+         //super();
          this.mPitchRange = pitchRange;
          this.mVariations = variations;
          this.mFlags = flags;

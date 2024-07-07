@@ -35,7 +35,7 @@ package com.popcap.flash.framework.resources.particles
       
       public function ParticleFieldType()
       {
-         super();
+         //super();
       }
       
       public static function fromUInt(param1:uint) : ParticleFieldType

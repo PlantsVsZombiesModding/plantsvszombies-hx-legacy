@@ -16,7 +16,7 @@ package com.popcap.flash.games.pvz.logic.Zombies
       {
          this.mZombieTypeCount = new Array();
          this.mAllWavesZombieTypeCount = new Array();
-         super();
+         //super();
       }
    }
 }

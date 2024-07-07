@@ -16,7 +16,7 @@ package com.popcap.flash.framework.resources.foley
       
       public function FoleyManager(app:AppBase)
       {
-         super();
+         //super();
          this.mApp = app;
          this.mFoleyMap = new Dictionary();
       }

@@ -30,7 +30,7 @@ package com.popcap.flash.games.pvz.resources
       
       public function PVZFonts()
       {
-         super();
+         //super();
       }
    }
 }

@@ -9,7 +9,7 @@ package com.popcap.flash.games.pvz.resources
       
       public function PVZImageLoader_IMAGE_REANIM_SQUASH_EYES_RGB_CLASS()
       {
-         super();
+         //super();
       }
    }
 }

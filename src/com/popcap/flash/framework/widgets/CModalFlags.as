@@ -12,7 +12,7 @@ package com.popcap.flash.framework.widgets
       
       public function CModalFlags()
       {
-         super();
+         //super();
       }
       
       public function getFlags() : Number

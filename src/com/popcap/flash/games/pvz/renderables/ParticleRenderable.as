@@ -14,7 +14,7 @@ package com.popcap.flash.games.pvz.renderables
       
       public function ParticleRenderable(effect:ParticleSystem, depth:Number = 0)
       {
-         super();
+         //super();
          this.mEffect = effect;
          this.mDepth = depth;
       }

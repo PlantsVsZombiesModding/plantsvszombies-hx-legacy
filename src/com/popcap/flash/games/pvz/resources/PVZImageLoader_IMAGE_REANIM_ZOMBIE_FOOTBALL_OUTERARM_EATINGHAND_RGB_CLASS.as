@@ -9,7 +9,7 @@ package com.popcap.flash.games.pvz.resources
       
       public function PVZImageLoader_IMAGE_REANIM_ZOMBIE_FOOTBALL_OUTERARM_EATINGHAND_RGB_CLASS()
       {
-         super();
+         //super();
       }
    }
 }

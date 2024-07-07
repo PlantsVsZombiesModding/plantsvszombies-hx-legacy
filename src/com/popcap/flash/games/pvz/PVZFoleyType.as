@@ -136,7 +136,7 @@ package com.popcap.flash.games.pvz
       
       public function PVZFoleyType()
       {
-         super();
+         //super();
       }
    }
 }

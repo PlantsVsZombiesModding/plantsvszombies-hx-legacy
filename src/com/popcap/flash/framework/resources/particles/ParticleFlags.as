@@ -32,7 +32,7 @@ package com.popcap.flash.framework.resources.particles
       
       public function ParticleFlags()
       {
-         super();
+         //super();
       }
       
       public static function fromString(param1:String) : uint

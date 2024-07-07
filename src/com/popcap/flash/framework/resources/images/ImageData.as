@@ -18,7 +18,7 @@ package com.popcap.flash.framework.resources.images
       
       public function ImageData(param1:BitmapData = null, param2:Number = 1, param3:Number = 1)
       {
-         super();
+         //super();
          this.cels = new Array(param1);
          this.rows = param2;
          this.cols = param3;

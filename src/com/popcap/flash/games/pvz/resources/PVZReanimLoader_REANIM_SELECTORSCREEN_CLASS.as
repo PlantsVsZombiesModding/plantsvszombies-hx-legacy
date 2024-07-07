@@ -9,7 +9,7 @@ package com.popcap.flash.games.pvz.resources
       
       public function PVZReanimLoader_REANIM_SELECTORSCREEN_CLASS()
       {
-         super();
+         //super();
       }
    }
 }

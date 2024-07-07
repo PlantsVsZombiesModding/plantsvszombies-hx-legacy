@@ -130,7 +130,7 @@ package com.popcap.flash.games.pvz.logic
          var aSeedType:int = 0;
          this.mChosenSeeds = new Array();
          this.mSeedPacket = new Array();
-         super();
+         //super();
          x = 0;
          y = 0;
          width = 460;

@@ -18,7 +18,7 @@ package com.popcap.flash.framework.resources.fonts
       
       public function ByteFontDescriptor(param1:ByteArray, param2:Array)
       {
-         super();
+         //super();
          this.mBytes = param1;
          this.mImageIds = param2;
       }

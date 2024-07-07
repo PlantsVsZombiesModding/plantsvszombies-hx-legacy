@@ -16,7 +16,7 @@ package com.popcap.flash.framework
       
       public function BaseAppServiceRegistration(param1:AppBase, param2:BaseAppPlugin, param3:Vector.<String>, param4:Object, param5:XML)
       {
-         super();
+         //super();
          this.mApp = param1;
          this.mPlugin = param2;
          this.mClasses = param3;

@@ -68,7 +68,7 @@ package com.popcap.flash.games.pvz.resources
       
       public function PVZReanimLoader()
       {
-         super();
+         //super();
       }
       
       public static function init(param1:Dictionary) : void

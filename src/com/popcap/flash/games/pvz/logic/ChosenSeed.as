@@ -34,7 +34,7 @@ package com.popcap.flash.games.pvz.logic
       
       public function ChosenSeed()
       {
-         super();
+         //super();
       }
    }
 }

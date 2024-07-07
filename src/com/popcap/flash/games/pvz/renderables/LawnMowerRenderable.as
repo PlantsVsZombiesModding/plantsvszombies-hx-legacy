@@ -14,7 +14,7 @@ package com.popcap.flash.games.pvz.renderables
       
       public function LawnMowerRenderable(lawnMower:LawnMower, depth:Number = 0)
       {
-         super();
+         //super();
          this.mLawnMower = lawnMower;
          this.mDepth = depth;
       }

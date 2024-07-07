@@ -22,7 +22,7 @@ package com.popcap.flash.framework.resources.fonts
       
       public function FontData()
       {
-         super();
+         //super();
          this.layerList = new Array();
          this.layerMap = new Dictionary();
       }

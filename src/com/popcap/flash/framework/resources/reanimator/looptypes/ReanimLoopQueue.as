@@ -11,7 +11,7 @@ package com.popcap.flash.framework.resources.reanimator.looptypes
       
       public function ReanimLoopQueue(tracks:Array)
       {
-         super();
+         //super();
          this.mTracks = tracks;
       }
       

@@ -32,7 +32,7 @@ package com.popcap.flash.framework.resources.images
       
       public function ImageInst(param1:ImageData)
       {
-         super();
+         //super();
          this.destPt = new Point();
          this.mData = param1;
          this.mFrame = 0;

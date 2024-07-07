@@ -13,7 +13,7 @@ package com.popcap.flash.framework.resources.reanimator
       
       public function ByteReanimDescriptor(param1:ByteArray)
       {
-         super();
+         //super();
          this.mBytes = param1;
       }
       

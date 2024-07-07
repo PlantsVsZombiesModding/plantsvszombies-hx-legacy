@@ -141,7 +141,7 @@ package com.popcap.flash.games.pvz.logic
       
       public function SeedPacket(app:PVZApp, theBoard:Board)
       {
-         super();
+         //super();
          this.mSeedPacketFont = app.fontManager.getFontInst(PVZFonts.FONT_PICO129);
          mBoard = theBoard;
          this.app = app;

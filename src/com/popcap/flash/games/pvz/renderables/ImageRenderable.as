@@ -16,7 +16,7 @@ package com.popcap.flash.games.pvz.renderables
       
       public function ImageRenderable(image:ImageInst, depth:Number = 0)
       {
-         super();
+         //super();
          this.mImage = image;
          this.mDepth = depth;
          this.mDead = false;

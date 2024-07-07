@@ -19,7 +19,7 @@ package com.popcap.flash.games.pvz.logic.Plants
       public function GraveBuster(theGridX:int, theGridY:int, theSeedType:int, app:PVZApp, theBoard:Board)
       {
          var anArray:Array = null;
-         super();
+         //super();
          this.app = app;
          mBoard = theBoard;
          mPlantCol = theGridX;

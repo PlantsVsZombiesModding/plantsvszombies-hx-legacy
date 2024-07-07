@@ -10,7 +10,7 @@ package com.popcap.flash.framework.resources.particles
       
       public function ParticleManager(app:AppBase)
       {
-         super();
+         //super();
          this.mApp = app;
       }
       

@@ -9,7 +9,7 @@ package com.popcap.flash.games.pvz.states.loading
       
       public function TitleScreenState_BRIANNETOD16_FONT_CLASS()
       {
-         super();
+         //super();
       }
    }
 }

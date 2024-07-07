@@ -20,7 +20,7 @@ package com.popcap.flash.games.pvz.logic.Zombies
       
       public function ZombieDrawPosition()
       {
-         super();
+         //super();
       }
    }
 }

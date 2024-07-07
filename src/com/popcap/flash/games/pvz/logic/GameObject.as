@@ -57,7 +57,7 @@ package com.popcap.flash.games.pvz.logic
       
       public function GameObject()
       {
-         super();
+         //super();
       }
       
       public function MakeParentGraphicsFrame(g:Graphics2D) : void
