@@ -67,7 +67,7 @@ class ParticleEmitterType extends CEnum {
 			case "CircleEvenSpacing":
 				return CIRCLE_EVEN_SPACING;
 			default:
-				throw new ArgumentError("Unknown ParticleEmitterType \'" + param1 + "\'");
+				throw new haxe.Exception ("Unknown ParticleEmitterType \'" + param1 + "\'");
 		}
 	}
 

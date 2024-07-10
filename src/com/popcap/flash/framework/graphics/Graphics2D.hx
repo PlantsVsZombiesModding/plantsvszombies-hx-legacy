@@ -69,7 +69,7 @@ class Graphics2D {
 	}
 
 	public function clear() {
-		this.fillRect(0, 0, this.data.width, this.data.height, 4278190080);
+		this.fillRect(0, 0, this.data.width, this.data.height, Std.int(4278190080));
 	}
 
 	public function translate(param1:Float, param2:Float) {

@@ -146,7 +146,7 @@ class AppBase extends Sprite {
 		this.mUpdateHooks = new Array<ASAny>();
 		// super();
 		if (param1 == null || param1.length == 0) {
-			throw new ArgumentError("You must specify an application id.");
+			throw new haxe.Exception("You must specify an application id.");
 		}
 		this.mAppId = param1;
 		this.registerCheat("toggleDebug", this.toggleDebug);
@@ -506,7 +506,7 @@ class AppBase extends Sprite {
 			return param1;
 		}
 		if (param1 <= 0) {
-			throw new ArgumentError("Application width must be >= 1");
+			throw new haxe.Exception ("Application width must be >= 1");
 		}
 
 		return this._appWidth = param1;
@@ -519,7 +519,7 @@ class AppBase extends Sprite {
 			return param1;
 		}
 		if (param1 <= 0) {
-			throw new ArgumentError("Application height must be >= 1");
+			throw new haxe.Exception ("Application height must be >= 1");
 		}
 		return this._appHeight = param1;
 	}
@@ -596,7 +596,7 @@ class AppBase extends Sprite {
 			return param1;
 		}
 		if (param1 <= 0) {
-			throw new ArgumentError("Screen height must be >= 1");
+			throw new haxe.Exception ("Screen height must be >= 1");
 		}
 		return this._screenHeight = param1;
 	}
@@ -655,7 +655,7 @@ class AppBase extends Sprite {
 			return param1;
 		}
 		if (param1 <= 0) {
-			throw new ArgumentError("Screen width must be >= 1");
+			throw new haxe.Exception ("Screen width must be >= 1");
 		}
 		return this._screenWidth = param1;
 	}

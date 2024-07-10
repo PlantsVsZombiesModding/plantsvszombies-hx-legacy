@@ -30,7 +30,7 @@ class CStateManager implements IStateManager {
 		var _loc5_:IState = null;
 		var _loc2_ = ASCompat.dynamicAs(this.states[param1], IState);
 		if (_loc2_ == null) {
-			throw new ArgumentError("ID " + param1 + " is unbound, cannot change states.");
+			throw new haxe.Exception ("ID " + param1 + " is unbound, cannot change states.");
 		}
 		var _loc3_ = this.stack.length;
 		var _loc4_ = _loc3_ - 1;
@@ -61,7 +61,7 @@ class CStateManager implements IStateManager {
 		var _loc3_:IState = null;
 		var _loc2_ = ASCompat.dynamicAs(this.states[param1], IState);
 		if (_loc2_ == null) {
-			throw new ArgumentError("ID " + param1 + " is unbound, cannot push onto stack.");
+			throw new haxe.Exception ("ID " + param1 + " is unbound, cannot push onto stack.");
 		}
 		if (this.stack.length > 0) {
 			_loc3_ = ASCompat.dynamicAs(this.stack[this.stack.length - 1], IState);

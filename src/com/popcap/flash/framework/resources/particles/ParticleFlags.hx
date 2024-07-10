@@ -58,7 +58,7 @@ class ParticleFlags {
 			case "HardwareOnly":
 				return HARDWARE_ONLY;
 			default:
-				throw new ArgumentError("Unknown ParticleFlags type \'" + param1 + "\'");
+				throw new haxe.Exception ("Unknown ParticleFlags type \'" + param1 + "\'");
 		}
 	}
 

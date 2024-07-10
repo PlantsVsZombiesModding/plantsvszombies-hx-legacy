@@ -63,7 +63,7 @@ class CurveType extends CEnum {
 			case 12:
 				return EASE_SIN_WAVE;
 			default:
-				throw new ArgumentError("Value does not map to a CurveType");
+				throw new haxe.Exception ("Value does not map to a CurveType");
 		}
 	}
 

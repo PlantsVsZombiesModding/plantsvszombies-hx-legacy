@@ -88,7 +88,7 @@ class ParticleFieldType extends CEnum {
 			case "Away":
 				return AWAY;
 			default:
-				throw new ArgumentError("Unknown ParticleFieldType " + param1);
+				throw new haxe.Exception ("Unknown ParticleFieldType " + param1);
 		}
 	}
 

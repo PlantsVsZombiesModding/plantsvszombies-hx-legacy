@@ -30,22 +30,22 @@ class Color {
 	}
 
 	public static function fromInt(param1:Int):Color {
-		return ARGB(((param1 & 4278190080) >> 24 & 255) / 255, ((param1 & 16711680) >> 16 & 255) / 255, ((param1 & 65280) >> 8 & 255) / 255,
+		return ARGB(((param1 & Std.int(4278190080)) >> 24 & 255) / 255, ((param1 & 16711680) >> 16 & 255) / 255, ((param1 & 65280) >> 8 & 255) / 255,
 			((param1 & 255) >> 0 & 255) / 255);
 	}
 
 	public static function ARGB(param1:Float, param2:Float, param3:Float, param4:Float):Color {
 		if (param1 < 0 || param1 > 1) {
-			throw new ArgumentError("Alpha channel must be in the range [0.0, 1.0], was " + param1);
+			throw new haxe.Exception ("Alpha channel must be in the range [0.0, 1.0], was " + param1);
 		}
 		if (param2 < 0 || param2 > 1) {
-			throw new ArgumentError("Red channel must be in the range [0.0, 1.0], was " + param2);
+			throw new haxe.Exception ("Red channel must be in the range [0.0, 1.0], was " + param2);
 		}
 		if (param3 < 0 || param3 > 1) {
-			throw new ArgumentError("Green channel must be in the range [0.0, 1.0], was " + param3);
+			throw new haxe.Exception ("Green channel must be in the range [0.0, 1.0], was " + param3);
 		}
 		if (param4 < 0 || param4 > 1) {
-			throw new ArgumentError("Blue channel must be in the range [0.0, 1.0], was " + param4);
+			throw new haxe.Exception ("Blue channel must be in the range [0.0, 1.0], was " + param4);
 		}
 		var _loc5_:Color;
 		(_loc5_ = new Color()).alpha = param1;

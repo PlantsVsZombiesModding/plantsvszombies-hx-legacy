@@ -20,7 +20,6 @@
 
 	<haxedev set='webgl' />
 
-	<haxelib name="ax3" />
     <haxelib name="openfl" />
 
 	<set name="BUILD_DIR" value="export/debug" if="debug" />

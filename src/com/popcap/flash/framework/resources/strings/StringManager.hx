@@ -31,8 +31,8 @@ class StringManager implements IEventDispatcher {
 		var _loc8_:String = null;
 		var _loc9_ = Math.NaN;
 		var _loc2_:String = this.mLoader.data;
-		_loc2_ = new compat.RegExp("\\r\\n", "g").replace(_loc2_, "\n");
-		_loc2_ = new compat.RegExp("\\r", "g").replace(_loc2_, "\n");
+		//_loc2_ = new compat.RegExp("\\r\\n", "g").replace(_loc2_, "\n");
+		//_loc2_ = new compat.RegExp("\\r", "g").replace(_loc2_, "\n");
 		var _loc3_:Array<ASAny> = (cast new compat.RegExp("\\n").split(_loc2_));
 		var _loc4_:String = null;
 		var _loc5_:String = null;

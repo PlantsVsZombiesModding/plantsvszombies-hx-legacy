@@ -10,6 +10,6 @@ class CFlagsMod {
 	}
 
 	public static function getModFlags(param1:Float, param2:CFlagsMod):Float {
-		return (Std.int(param1) | Std.int(param2.addFlags)) & ~param2.removeFlags;
+		return Std.parseFloat(Std.string((Std.int(param1) | Std.int(param2.addFlags)) & ~param2.removeFlags));
 	}
 }
