@@ -1,4 +1,4 @@
-package com.popcap.flash.games.pvz.login.plants;
+package com.popcap.flash.games.pvz.logic.plants;
 
 import com.popcap.flash.framework.graphics.Graphics2D;
 import com.popcap.flash.framework.resources.particles.ParticleSystem;

@@ -5,7 +5,7 @@ import com.popcap.flash.framework.resources.particles.ParticleSystem;
 import com.popcap.flash.framework.resources.reanimator.Reanimation;
 import com.popcap.flash.games.pvz.PVZApp;
 import com.popcap.flash.games.pvz.PVZFoleyType;
-import com.popcap.flash.games.pvz.login.plants.CPlant;
+import com.popcap.flash.games.pvz.logic.plants.CPlant;
 import com.popcap.flash.games.pvz.logic.zombies.Zombie;
 import com.popcap.flash.games.pvz.renderables.GridItemRenderable;
 import com.popcap.flash.games.pvz.renderables.ParticleRenderable;

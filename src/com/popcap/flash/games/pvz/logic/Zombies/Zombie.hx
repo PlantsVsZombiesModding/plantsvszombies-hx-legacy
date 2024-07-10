@@ -1,4 +1,4 @@
-package com.popcap.flash.games.pvz.logic.Zombies;
+package com.popcap.flash.games.pvz.logic.zombies;
 
 import com.popcap.flash.framework.graphics.Color;
 import com.popcap.flash.framework.graphics.Graphics2D;
@@ -12,7 +12,7 @@ import com.popcap.flash.games.pvz.PVZFoleyType;
 import com.popcap.flash.games.pvz.logic.Board;
 import com.popcap.flash.games.pvz.logic.GameObject;
 import com.popcap.flash.games.pvz.logic.MessageWidget;
-import com.popcap.flash.games.pvz.login.plants.CPlant;
+import com.popcap.flash.games.pvz.logic.plants.CPlant;
 import com.popcap.flash.games.pvz.logic.TodCommon;
 import com.popcap.flash.games.pvz.renderables.ParticleRenderable;
 import com.popcap.flash.games.pvz.renderables.ReanimationRenderable;
