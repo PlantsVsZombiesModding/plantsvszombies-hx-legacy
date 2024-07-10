@@ -1,1 +1,1 @@
-java -jar converter.jar config.json
+mkdir hx-out && java -jar converter.jar config.json
