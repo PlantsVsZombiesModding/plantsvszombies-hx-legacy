@@ -1,12 +1,12 @@
 package com.popcap.flash.framework.resources.strings;
 
 import com.popcap.flash.framework.AppBase;
-import flash.events.Event;
-import flash.events.EventDispatcher;
-import flash.events.IEventDispatcher;
-import flash.events.IOErrorEvent;
-import flash.net.URLLoader;
-import flash.net.URLRequest;
+import openfl.events.Event;
+import openfl.events.EventDispatcher;
+import openfl.events.IEventDispatcher;
+import openfl.events.IOErrorEvent;
+import openfl.net.URLLoader;
+import openfl.net.URLRequest;
 
 class StringManager implements IEventDispatcher {
 	var mLoader:URLLoader;

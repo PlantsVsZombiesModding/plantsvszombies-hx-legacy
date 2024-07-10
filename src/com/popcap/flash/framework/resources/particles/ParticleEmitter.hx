@@ -2,8 +2,8 @@ package com.popcap.flash.framework.resources.particles;
 
 import com.popcap.flash.framework.graphics.Color;
 import com.popcap.flash.framework.graphics.Graphics2D;
-import flash.geom.Matrix;
-import flash.geom.Point;
+import openfl.geom.Matrix;
+import openfl.geom.Point;
 
 class ParticleEmitter {
 	public static inline final ONE_OVER_32K:Float = 0.0000305185094;

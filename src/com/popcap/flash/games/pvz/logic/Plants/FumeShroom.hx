@@ -1,4 +1,4 @@
-package com.popcap.flash.games.pvz.logic.Plants;
+package com.popcap.flash.games.pvz.login.plants;
 
 import com.popcap.flash.framework.resources.particles.ParticleSystem;
 import com.popcap.flash.framework.resources.reanimator.Reanimation;
@@ -11,7 +11,7 @@ import com.popcap.flash.games.pvz.logic.zombies.Zombie;
 import com.popcap.flash.games.pvz.renderables.ParticleRenderable;
 import com.popcap.flash.games.pvz.resources.PVZParticles;
 import com.popcap.flash.games.pvz.resources.PVZReanims;
-import flash.geom.Rectangle;
+import openfl.geom.Rectangle;
 
 class FumeShroom extends CPlant {
 	public function new(theGridX:Int, theGridY:Int, theSeedType:Int, app:PVZApp, theBoard:Board) {

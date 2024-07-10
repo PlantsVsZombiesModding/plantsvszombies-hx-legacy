@@ -1,4 +1,4 @@
-package com.popcap.flash.games.pvz.logic.UI;
+package com.popcap.flash.games.pvz.logic.ui;
 
 import com.popcap.flash.framework.graphics.Color;
 import com.popcap.flash.framework.graphics.Graphics2D;

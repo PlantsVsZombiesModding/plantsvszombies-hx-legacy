@@ -1,7 +1,7 @@
 package com.popcap.flash.framework.resources.reanimator;
 
 import com.popcap.flash.framework.resources.images.ImageInst;
-import flash.geom.Matrix;
+import openfl.geom.Matrix;
 
 class ReanimTransform {
 	public var matrix:Matrix;

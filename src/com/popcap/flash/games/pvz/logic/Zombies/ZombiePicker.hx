@@ -1,4 +1,4 @@
-package com.popcap.flash.games.pvz.logic.Zombies;
+package com.popcap.flash.games.pvz.logic.zombies;
 
 class ZombiePicker {
 	public var mZombieTypeCount:Array<ASAny>;

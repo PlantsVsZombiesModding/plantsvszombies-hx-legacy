@@ -8,10 +8,10 @@ import com.popcap.flash.framework.resources.images.ImageInst;
 import com.popcap.flash.framework.resources.reanimator.looptypes.ReanimLoopAlways;
 import com.popcap.flash.framework.resources.reanimator.looptypes.ReanimLoopOnceAndDie;
 import com.popcap.flash.framework.resources.reanimator.looptypes.ReanimLoopOnceAndHold;
-import flash.display.BitmapData;
-import flash.geom.Matrix;
-import flash.geom.Point;
-import flash.geom.Rectangle;
+import openfl.display.BitmapData;
+import openfl.geom.Matrix;
+import openfl.geom.Point;
+import openfl.geom.Rectangle;
 
 class Reanimation {
 	public static final LOOP_TYPE_ONCE_AND_DIE:ReanimLoopType = new ReanimLoopOnceAndDie();

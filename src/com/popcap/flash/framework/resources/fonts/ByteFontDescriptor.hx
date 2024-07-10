@@ -3,10 +3,10 @@ package com.popcap.flash.framework.resources.fonts;
 import com.popcap.flash.framework.AppBase;
 import com.popcap.flash.framework.resources.images.ImageData;
 import com.popcap.flash.framework.resources.images.ImageInst;
-import flash.display.BitmapData;
-import flash.geom.Point;
-import flash.geom.Rectangle;
-import flash.utils.ByteArray;
+import openfl.display.BitmapData;
+import openfl.geom.Point;
+import openfl.geom.Rectangle;
+import openfl.utils.ByteArray;
 
 class ByteFontDescriptor implements FontDescriptor {
 	var mImageIds:Array<ASAny>;

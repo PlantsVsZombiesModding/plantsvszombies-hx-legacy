@@ -1,9 +1,9 @@
 package com.popcap.flash.framework.resources;
 
 import com.popcap.flash.framework.AppBase;
-import flash.display.Loader;
-import flash.events.Event;
-import flash.net.URLRequest;
+import openfl.display.Loader;
+import openfl.events.Event;
+import openfl.net.URLRequest;
 
 class ResourceManager {
 	var mIsLoading:Bool = false;

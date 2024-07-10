@@ -11,7 +11,7 @@ import com.popcap.flash.games.pvz.renderables.ParticleRenderable;
 import com.popcap.flash.games.pvz.resources.PVZFonts;
 import com.popcap.flash.games.pvz.resources.PVZImages;
 import com.popcap.flash.games.pvz.resources.PVZParticles;
-import flash.display.BitmapData;
+import openfl.display.BitmapData;
 
 class SeedPacket extends GameObject {
 	static inline final CURSOR_TYPE_PLANT_FROM_BANK = 1;

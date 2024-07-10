@@ -14,8 +14,8 @@ import com.popcap.flash.games.pvz.resources.PVZFonts;
 import com.popcap.flash.games.pvz.resources.PVZImages;
 import com.popcap.flash.games.pvz.resources.PVZParticles;
 import com.popcap.flash.games.pvz.resources.PVZReanims;
-import flash.display.BitmapData;
-import flash.geom.Matrix;
+import openfl.display.BitmapData;
+import openfl.geom.Matrix;
 
 class Coin extends GameObject {
 	public static inline final CURVE_WEAK_FAST_IN_OUT = 8;

@@ -1,7 +1,7 @@
 package mx.core;
 
-import flash.display.Bitmap;
-import flash.display.BitmapData;
+import openfl.display.Bitmap;
+import openfl.display.BitmapData;
 import mx.utils.NameUtil;
 
 // use namespace mx_internal;

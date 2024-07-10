@@ -1,8 +1,8 @@
 package com.popcap.flash.framework.resources.fonts;
 
 import com.popcap.flash.framework.resources.images.ImageInst;
-import flash.geom.Point;
-import flash.geom.Rectangle;
+import openfl.geom.Point;
+import openfl.geom.Rectangle;
 
 class CharData {
 	public var mKerningOffsets:ASDictionary<ASAny, ASAny>;

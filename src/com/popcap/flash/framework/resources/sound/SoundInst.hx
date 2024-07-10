@@ -1,8 +1,8 @@
 package com.popcap.flash.framework.resources.sound;
 
-import flash.events.Event;
-import flash.media.SoundChannel;
-import flash.media.SoundTransform;
+import openfl.events.Event;
+import openfl.media.SoundChannel;
+import openfl.media.SoundTransform;
 
 class SoundInst {
 	public var mNumPlays:Int = 0;

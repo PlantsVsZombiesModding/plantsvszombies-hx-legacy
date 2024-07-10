@@ -1,4 +1,4 @@
-package com.popcap.flash.games.pvz.logic.Plants;
+package com.popcap.flash.games.pvz.login.plants;
 
 import com.popcap.flash.framework.resources.reanimator.Reanimation;
 import com.popcap.flash.games.pvz.PVZApp;
@@ -7,7 +7,7 @@ import com.popcap.flash.games.pvz.logic.Board;
 import com.popcap.flash.games.pvz.logic.TodCommon;
 import com.popcap.flash.games.pvz.logic.zombies.Zombie;
 import com.popcap.flash.games.pvz.resources.PVZReanims;
-import flash.geom.Rectangle;
+import openfl.geom.Rectangle;
 
 class Squash extends CPlant {
 	static inline final SQUASH_RISE_TIME = 50;

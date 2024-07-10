@@ -1,13 +1,13 @@
 package com.popcap.flash.framework.resources.music;
 
 import com.popcap.flash.framework.AppBase;
-import flash.events.Event;
-import flash.events.IOErrorEvent;
-import flash.media.Sound;
-import flash.media.SoundChannel;
-import flash.media.SoundLoaderContext;
-import flash.media.SoundTransform;
-import flash.net.URLRequest;
+import openfl.events.Event;
+import openfl.events.IOErrorEvent;
+import openfl.media.Sound;
+import openfl.media.SoundChannel;
+import openfl.media.SoundLoaderContext;
+import openfl.media.SoundTransform;
+import openfl.net.URLRequest;
 
 class MusicManager {
 	var mFadeVolume:Float = 0;

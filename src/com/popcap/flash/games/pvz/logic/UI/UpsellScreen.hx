@@ -1,4 +1,4 @@
-package com.popcap.flash.games.pvz.logic.UI;
+package com.popcap.flash.games.pvz.logic.ui;
 
 import com.popcap.flash.framework.graphics.Color;
 import com.popcap.flash.framework.graphics.Graphics2D;
@@ -10,7 +10,7 @@ import com.popcap.flash.games.pvz.PVZApp;
 import com.popcap.flash.games.pvz.renderables.StringRenderable;
 import com.popcap.flash.games.pvz.resources.PVZFonts;
 import com.popcap.flash.games.pvz.resources.PVZImages;
-import flash.net.URLRequest;
+import openfl.net.URLRequest;
 import com.XMLC;
 
 class UpsellScreen extends CWidget implements IButtonListener {

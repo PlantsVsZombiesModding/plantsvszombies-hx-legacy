@@ -1,7 +1,7 @@
 package com.popcap.flash.framework.resources.reanimator;
 
 import com.popcap.flash.framework.AppBase;
-import flash.events.EventDispatcher;
+import openfl.events.EventDispatcher;
 
 class Reanimator extends EventDispatcher {
 	var mApp:AppBase;

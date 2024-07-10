@@ -2,8 +2,8 @@ package com.popcap.flash.framework.widgets;
 
 import com.popcap.flash.framework.AppBase;
 import com.popcap.flash.framework.graphics.Graphics2D;
-import flash.geom.Point;
-import flash.ui.Keyboard;
+import openfl.geom.Point;
+import openfl.ui.Keyboard;
 
 class CWidgetManager extends CWidgetContainer {
 	public static inline final WIDGETFLAGS_DRAW:Float = 4;

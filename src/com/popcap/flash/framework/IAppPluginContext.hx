@@ -1,6 +1,6 @@
 package com.popcap.flash.framework;
 
-import flash.events.IEventDispatcher;
+import openfl.events.IEventDispatcher;
 import com.XMLC;
 
 interface IAppPluginContext extends IEventDispatcher {

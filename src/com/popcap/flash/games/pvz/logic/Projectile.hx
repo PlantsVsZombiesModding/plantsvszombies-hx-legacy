@@ -9,7 +9,7 @@ import com.popcap.flash.games.pvz.logic.zombies.Zombie;
 import com.popcap.flash.games.pvz.renderables.ParticleRenderable;
 import com.popcap.flash.games.pvz.resources.PVZImages;
 import com.popcap.flash.games.pvz.resources.PVZParticles;
-import flash.geom.Rectangle;
+import openfl.geom.Rectangle;
 
 class Projectile extends GameObject {
 	static inline final BOARD_HEIGHT = 405;

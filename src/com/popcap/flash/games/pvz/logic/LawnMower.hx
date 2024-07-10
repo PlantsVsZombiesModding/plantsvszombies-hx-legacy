@@ -6,7 +6,7 @@ import com.popcap.flash.games.pvz.PVZApp;
 import com.popcap.flash.games.pvz.PVZFoleyType;
 import com.popcap.flash.games.pvz.logic.zombies.Zombie;
 import com.popcap.flash.games.pvz.resources.PVZReanims;
-import flash.geom.Rectangle;
+import openfl.geom.Rectangle;
 
 class LawnMower {
 	static inline final PHASE_ZOMBIE_BURNED = 2;

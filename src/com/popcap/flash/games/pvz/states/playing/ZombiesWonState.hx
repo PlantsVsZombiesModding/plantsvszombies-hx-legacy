@@ -9,7 +9,7 @@ import com.popcap.flash.games.pvz.PVZFoleyType;
 import com.popcap.flash.games.pvz.PVZMusic;
 import com.popcap.flash.games.pvz.logic.TodCommon;
 import com.popcap.flash.games.pvz.resources.PVZImages;
-import flash.geom.Rectangle;
+import openfl.geom.Rectangle;
 
 class ZombiesWonState implements IState {
 	static var TIME_PAN_RIGHT_START:Int = 1500;

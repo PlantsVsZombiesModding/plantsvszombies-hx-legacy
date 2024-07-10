@@ -1,4 +1,4 @@
-package com.popcap.flash.games.pvz.logic.Plants;
+package com.popcap.flash.games.pvz.login.plants;
 
 import com.popcap.flash.framework.resources.reanimator.Reanimation;
 import com.popcap.flash.framework.resources.reanimator.looptypes.ReanimLoopQueue;

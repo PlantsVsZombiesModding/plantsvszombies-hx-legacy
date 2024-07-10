@@ -1,7 +1,7 @@
 package com.popcap.flash.framework.resources.particles;
 
 import com.popcap.flash.framework.AppBase;
-import flash.utils.ByteArray;
+import openfl.utils.ByteArray;
 
 class ByteParticleDescriptor implements ParticleDescriptor {
 	var mBytes:ByteArray;

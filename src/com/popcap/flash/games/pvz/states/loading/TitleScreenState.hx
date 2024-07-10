@@ -13,8 +13,8 @@ import com.popcap.flash.framework.widgets.ui.IButtonListener;
 import com.popcap.flash.games.pvz.PVZApp;
 import com.popcap.flash.games.pvz.resources.PVZImages;
 import com.popcap.flash.games.pvz.resources.PVZReanims;
-import flash.geom.Matrix;
-import flash.utils.ByteArray;
+import openfl.geom.Matrix;
+import openfl.utils.ByteArray;
 
 class TitleScreenState implements IState implements IButtonListener {
 	static final IMAGE_REANIM_SPROUT_PETAL_CLASS:Class<Dynamic> = TitleScreenState_IMAGE_REANIM_SPROUT_PETAL_CLASS;

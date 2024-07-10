@@ -1,7 +1,7 @@
 package com.popcap.flash.framework.resources.reanimator;
 
 import com.popcap.flash.framework.AppBase;
-import flash.utils.ByteArray;
+import openfl.utils.ByteArray;
 import com.XMLC;
 
 class XMLReanimDescriptor implements ReanimDescriptor {

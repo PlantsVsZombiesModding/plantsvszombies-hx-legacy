@@ -1,10 +1,10 @@
 package com.popcap.flash.framework.resources.images;
 
 import com.popcap.flash.framework.graphics.Graphics2D;
-import flash.display.BitmapData;
-import flash.geom.ColorTransform;
-import flash.geom.Point;
-import flash.geom.Rectangle;
+import openfl.display.BitmapData;
+import openfl.geom.ColorTransform;
+import openfl.geom.Point;
+import openfl.geom.Rectangle;
 
 class ImageInst {
 	var mFrame:Float = Math.NaN;

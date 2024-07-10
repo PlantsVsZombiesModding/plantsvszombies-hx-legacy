@@ -1,6 +1,6 @@
 package mx.utils;
 
-import flash.display.DisplayObject;
+import openfl.display.DisplayObject;
 import Globals.flash_utils_getQualifiedClassName as getQualifiedClassName;
 import mx.core.IRepeaterClient;
 

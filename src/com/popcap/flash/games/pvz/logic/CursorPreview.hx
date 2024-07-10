@@ -6,8 +6,8 @@ import com.popcap.flash.framework.resources.images.ImageData;
 import com.popcap.flash.framework.resources.images.ImageInst;
 import com.popcap.flash.games.pvz.PVZApp;
 import com.popcap.flash.games.pvz.resources.PVZImages;
-import flash.display.BitmapData;
-import flash.geom.Matrix;
+import openfl.display.BitmapData;
+import openfl.geom.Matrix;
 
 class CursorPreview extends GameObject {
 	static inline final SEED_SUNFLOWER = 1;

@@ -12,16 +12,16 @@ import com.popcap.flash.games.pvz.PVZFoleyType;
 import com.popcap.flash.games.pvz.logic.Board;
 import com.popcap.flash.games.pvz.logic.GameObject;
 import com.popcap.flash.games.pvz.logic.MessageWidget;
-import com.popcap.flash.games.pvz.logic.plants.CPlant;
+import com.popcap.flash.games.pvz.login.plants.CPlant;
 import com.popcap.flash.games.pvz.logic.TodCommon;
 import com.popcap.flash.games.pvz.renderables.ParticleRenderable;
 import com.popcap.flash.games.pvz.renderables.ReanimationRenderable;
 import com.popcap.flash.games.pvz.resources.PVZImages;
 import com.popcap.flash.games.pvz.resources.PVZParticles;
 import com.popcap.flash.games.pvz.resources.PVZReanims;
-import flash.geom.Matrix;
-import flash.geom.Point;
-import flash.geom.Rectangle;
+import openfl.geom.Matrix;
+import openfl.geom.Point;
+import openfl.geom.Rectangle;
 
 class Zombie extends GameObject {
 	static inline final GRIDSIZEX = 9;

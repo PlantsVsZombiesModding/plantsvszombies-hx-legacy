@@ -2,7 +2,7 @@ package com.popcap.flash.games.pvz.renderables;
 
 import com.popcap.flash.framework.graphics.Graphics2D;
 import com.popcap.flash.framework.render.Renderable;
-import com.popcap.flash.games.pvz.logic.plants.CPlant;
+import com.popcap.flash.games.pvz.login.plants.CPlant;
 
 class PlantRenderable implements Renderable {
 	var mDepth:Float = Math.NaN;

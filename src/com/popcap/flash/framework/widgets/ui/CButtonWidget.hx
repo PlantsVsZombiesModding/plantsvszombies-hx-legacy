@@ -7,8 +7,8 @@ import com.popcap.flash.framework.resources.images.ImageData;
 import com.popcap.flash.framework.resources.images.ImageInst;
 import com.popcap.flash.framework.widgets.CWidget;
 import com.popcap.flash.games.pvz.renderables.StringRenderable;
-import flash.display.BitmapData;
-import flash.geom.Rectangle;
+import openfl.display.BitmapData;
+import openfl.geom.Rectangle;
 
 class CButtonWidget extends CWidget {
 	public static inline final BUTTON_LABEL_RIGHT:Float = 3;

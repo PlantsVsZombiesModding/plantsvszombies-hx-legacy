@@ -8,7 +8,7 @@ import com.popcap.flash.games.pvz.PVZApp;
 import com.popcap.flash.games.pvz.renderables.StringRenderable;
 import com.popcap.flash.games.pvz.resources.PVZFonts;
 import com.popcap.flash.games.pvz.resources.PVZImages;
-import flash.geom.Rectangle;
+import openfl.geom.Rectangle;
 
 class SeedBank extends GameObject {
 	static inline final CURSOR_TYPE_PLANT_FROM_BANK = 1;

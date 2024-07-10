@@ -2,7 +2,7 @@ package com.popcap.flash.games.pvz;
 
 import com.popcap.flash.framework.AppBase;
 import com.popcap.flash.framework.AppUtils;
-import flash.external.ExternalInterface;
+import openfl.external.ExternalInterface;
 import com.XMLC;
 
 class MSNAdAPI {

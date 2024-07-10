@@ -12,8 +12,8 @@ import com.popcap.flash.games.pvz.PVZApp;
 import com.popcap.flash.games.pvz.renderables.StringRenderable;
 import com.popcap.flash.games.pvz.resources.PVZFonts;
 import com.popcap.flash.games.pvz.resources.PVZImages;
-import flash.display.BitmapData;
-import flash.geom.Point;
+import openfl.display.BitmapData;
+import openfl.geom.Point;
 
 class ChallengeScreen extends CWidget implements IButtonListener {
 	public var mStartButton:ImageButtonWidget;

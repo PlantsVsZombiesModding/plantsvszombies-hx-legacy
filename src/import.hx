@@ -1,7 +1,7 @@
 #if !macro
-import flash.errors.Error;
+import openfl.errors.Error;
 
 using ReverseIntIterator;
 
-import flash.Vector;
+import openfl.Vector;
 #end

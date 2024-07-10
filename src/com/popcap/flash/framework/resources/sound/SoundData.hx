@@ -1,6 +1,6 @@
 package com.popcap.flash.framework.resources.sound;
 
-import flash.media.Sound;
+import openfl.media.Sound;
 
 class SoundData {
 	public var mSource:Sound;

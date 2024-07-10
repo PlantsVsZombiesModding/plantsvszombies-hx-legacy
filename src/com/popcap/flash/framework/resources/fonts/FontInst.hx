@@ -3,9 +3,9 @@ package com.popcap.flash.framework.resources.fonts;
 import com.popcap.flash.framework.graphics.Color;
 import com.popcap.flash.framework.graphics.Graphics2D;
 import com.popcap.flash.framework.resources.images.ImageInst;
-import flash.geom.ColorTransform;
-import flash.geom.Matrix;
-import flash.geom.Rectangle;
+import openfl.geom.ColorTransform;
+import openfl.geom.Matrix;
+import openfl.geom.Rectangle;
 
 class FontInst {
 	var mColorTransform:ColorTransform;

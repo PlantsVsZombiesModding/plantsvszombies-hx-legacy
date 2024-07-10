@@ -22,11 +22,11 @@ import com.popcap.flash.games.pvz.logic.uI.DialogBox;
 import com.popcap.flash.games.pvz.resources.PVZFonts;
 import com.popcap.flash.games.pvz.resources.PVZImages;
 import com.popcap.flash.games.pvz.resources.PVZReanims;
-import flash.display.BitmapData;
-import flash.geom.Matrix;
-import flash.geom.Point;
-import flash.geom.Rectangle;
-import flash.net.URLRequest;
+import openfl.display.BitmapData;
+import openfl.geom.Matrix;
+import openfl.geom.Point;
+import openfl.geom.Rectangle;
+import openfl.net.URLRequest;
 import com.XMLC;
 
 class MainMenuState implements IState implements IButtonListener implements ICheckboxListener {

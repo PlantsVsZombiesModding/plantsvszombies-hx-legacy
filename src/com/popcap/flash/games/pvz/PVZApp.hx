@@ -34,7 +34,7 @@ import com.popcap.flash.games.pvz.states.playing.StartLevelState;
 import com.popcap.flash.games.pvz.states.playing.SurvivalRepickState;
 import com.popcap.flash.games.pvz.states.playing.UpsellScreenState;
 import com.popcap.flash.games.pvz.states.playing.ZombiesWonState;
-import flash.display.Loader;
+import openfl.display.Loader;
 import com.XMLC;
 
 class PVZApp extends AppBase {

@@ -1,7 +1,7 @@
 package com.popcap.flash.games.pvz.resources;
 
 import com.popcap.flash.framework.resources.ResourceLibrary;
-import flash.display.Sprite;
+import openfl.display.Sprite;
 
 class PVZResources extends Sprite implements ResourceLibrary {
 	var mResources:ASDictionary<ASAny, ASAny>;

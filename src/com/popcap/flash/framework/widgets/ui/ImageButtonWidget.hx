@@ -4,8 +4,8 @@ import com.popcap.flash.framework.graphics.Color;
 import com.popcap.flash.framework.graphics.Graphics2D;
 import com.popcap.flash.framework.resources.images.ImageInst;
 import com.popcap.flash.framework.widgets.CWidget;
-import flash.geom.Point;
-import flash.geom.Rectangle;
+import openfl.geom.Point;
+import openfl.geom.Rectangle;
 
 class ImageButtonWidget extends CWidget {
 	public static inline final BUTTON_LABEL_RIGHT:Float = 3;

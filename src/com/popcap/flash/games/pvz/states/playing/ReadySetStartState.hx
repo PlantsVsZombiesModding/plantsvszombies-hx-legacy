@@ -8,7 +8,7 @@ import com.popcap.flash.framework.utils.Utils;
 import com.popcap.flash.games.pvz.PVZApp;
 import com.popcap.flash.games.pvz.PVZFoleyType;
 import com.popcap.flash.games.pvz.resources.PVZFonts;
-import flash.geom.Rectangle;
+import openfl.geom.Rectangle;
 
 class ReadySetStartState implements IState {
 	static inline final SET_START:Float = 60;

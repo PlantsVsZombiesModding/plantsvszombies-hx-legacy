@@ -1,6 +1,6 @@
 package mx.core;
 
-import flash.media.Sound;
+import openfl.media.Sound;
 
 // use namespace mx_internal;
 class SoundAsset extends Sound implements IFlexAsset {

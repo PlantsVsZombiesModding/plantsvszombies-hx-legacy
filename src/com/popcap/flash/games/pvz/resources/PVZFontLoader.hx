@@ -1,7 +1,7 @@
 package com.popcap.flash.games.pvz.resources;
 
 import com.popcap.flash.framework.resources.fonts.ByteFontDescriptor;
-import flash.utils.ByteArray;
+import openfl.utils.ByteArray;
 
 class PVZFontLoader {
 	public static final FONT_HOUSEOFTERROR16_CLASS:Class<Dynamic> = PVZFontLoader_FONT_HOUSEOFTERROR16_CLASS;

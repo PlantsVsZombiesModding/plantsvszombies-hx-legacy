@@ -1,7 +1,7 @@
 package com.popcap.flash.framework;
 
 import com.XMLC;
-import flash.events.Event;
+import openfl.events.Event;
 
 class BaseAppPluginContext implements IAppPluginContext {
 	var mPlugin:BaseAppPlugin;

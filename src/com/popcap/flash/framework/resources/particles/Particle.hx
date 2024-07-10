@@ -1,6 +1,6 @@
 package com.popcap.flash.framework.resources.particles;
 
-import flash.geom.Point;
+import openfl.geom.Point;
 
 class Particle {
 	public static inline final TRACK_PARTICLE_STRETCH = 8;

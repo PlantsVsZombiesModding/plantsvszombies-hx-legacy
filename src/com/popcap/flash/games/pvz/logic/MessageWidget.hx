@@ -9,8 +9,8 @@ import com.popcap.flash.games.pvz.PVZApp;
 import com.popcap.flash.games.pvz.renderables.ImageRenderable;
 import com.popcap.flash.games.pvz.renderables.StringRenderable;
 import com.popcap.flash.games.pvz.resources.PVZFonts;
-import flash.display.BitmapData;
-import flash.geom.Rectangle;
+import openfl.display.BitmapData;
+import openfl.geom.Rectangle;
 
 class MessageWidget {
 	public static inline final MESSAGE_STYLE_HINT_TALL_UNLOCKMESSAGE = 9;

@@ -3,10 +3,10 @@ package com.popcap.flash.framework.utils;
 import com.popcap.flash.framework.resources.fonts.FontInst;
 import com.popcap.flash.framework.resources.images.ImageData;
 import com.popcap.flash.framework.resources.images.ImageInst;
-import flash.display.BitmapData;
-import flash.geom.Matrix;
-import flash.geom.Point;
-import flash.geom.Rectangle;
+import openfl.display.BitmapData;
+import openfl.geom.Matrix;
+import openfl.geom.Point;
+import openfl.geom.Rectangle;
 
 class Utils {
 	public static inline final ALIGN_LEFT:Float = -1;

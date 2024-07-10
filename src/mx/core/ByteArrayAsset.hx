@@ -1,6 +1,6 @@
 package mx.core;
 
-import flash.utils.ByteArray;
+import openfl.utils.ByteArray;
 
 // use namespace mx_internal;
 class ByteArrayAsset extends ByteArray implements IFlexAsset {

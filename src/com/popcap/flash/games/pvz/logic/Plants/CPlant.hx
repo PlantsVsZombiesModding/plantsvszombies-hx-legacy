@@ -1,4 +1,4 @@
-package com.popcap.flash.games.pvz.logic.Plants;
+package com.popcap.flash.games.pvz.login.plants;
 
 import com.popcap.flash.framework.graphics.Graphics2D;
 import com.popcap.flash.framework.resources.particles.ParticleSystem;
@@ -11,7 +11,7 @@ import com.popcap.flash.games.pvz.logic.TodCommon;
 import com.popcap.flash.games.pvz.logic.zombies.Zombie;
 import com.popcap.flash.games.pvz.renderables.ParticleRenderable;
 import com.popcap.flash.games.pvz.resources.PVZParticles;
-import flash.geom.Rectangle;
+import openfl.geom.Rectangle;
 
 class CPlant extends GameObject {
 	public static inline final SEED_PUFFSHROOM = 8;

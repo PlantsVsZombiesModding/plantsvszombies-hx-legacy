@@ -3,7 +3,7 @@ package com.popcap.flash.games.pvz.renderables;
 import com.popcap.flash.framework.graphics.Graphics2D;
 import com.popcap.flash.framework.render.Renderable;
 import com.popcap.flash.framework.resources.reanimator.Reanimation;
-import flash.geom.Matrix;
+import openfl.geom.Matrix;
 
 class ReanimationRenderable implements Renderable {
 	static final mScratchMatrix:Matrix = new Matrix();

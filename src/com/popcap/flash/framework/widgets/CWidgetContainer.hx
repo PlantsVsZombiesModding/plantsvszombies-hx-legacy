@@ -1,8 +1,8 @@
 package com.popcap.flash.framework.widgets;
 
 import com.popcap.flash.framework.graphics.Graphics2D;
-import flash.geom.Point;
-import flash.geom.Rectangle;
+import openfl.geom.Point;
+import openfl.geom.Rectangle;
 
 class CWidgetContainer {
 	public static var depthCount:Float = 0;

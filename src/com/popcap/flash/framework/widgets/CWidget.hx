@@ -2,9 +2,9 @@ package com.popcap.flash.framework.widgets;
 
 import com.popcap.flash.framework.graphics.Color;
 import com.popcap.flash.framework.graphics.Graphics2D;
-import flash.geom.Point;
-import flash.geom.Rectangle;
-import flash.ui.Keyboard;
+import openfl.geom.Point;
+import openfl.geom.Rectangle;
+import openfl.ui.Keyboard;
 
 class CWidget extends CWidgetContainer {
 	public static inline final LAY_Right:Float = 1024;

@@ -1,10 +1,10 @@
 package com.popcap.flash.framework.resources.images;
 
-import flash.display.Bitmap;
-import flash.display.BitmapData;
-import flash.display.BitmapDataChannel;
-import flash.geom.Point;
-import flash.geom.Rectangle;
+import openfl.display.Bitmap;
+import openfl.display.BitmapData;
+import openfl.display.BitmapDataChannel;
+import openfl.geom.Point;
+import openfl.geom.Rectangle;
 
 class ImageDescriptor {
 	static var srcRect:Rectangle = new Rectangle();

@@ -13,8 +13,8 @@ import com.popcap.flash.games.pvz.renderables.StringRenderable;
 import com.popcap.flash.games.pvz.resources.PVZFonts;
 import com.popcap.flash.games.pvz.resources.PVZImages;
 import com.popcap.flash.games.pvz.resources.PVZReanims;
-import flash.display.BitmapData;
-import flash.geom.Point;
+import openfl.display.BitmapData;
+import openfl.geom.Point;
 
 class AwardScreen extends CWidget implements IButtonListener {
 	public static inline final SEED_PUFFSHROOM = 8;

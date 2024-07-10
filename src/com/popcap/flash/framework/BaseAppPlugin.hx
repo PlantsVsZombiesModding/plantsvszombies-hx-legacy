@@ -1,10 +1,10 @@
 package com.popcap.flash.framework;
 
 import com.XMLC;
-import flash.display.Loader;
-import flash.display.LoaderInfo;
-import flash.events.Event;
-import flash.events.IOErrorEvent;
+import openfl.display.Loader;
+import openfl.display.LoaderInfo;
+import openfl.events.Event;
+import openfl.events.IOErrorEvent;
 
 class BaseAppPlugin implements IAppPlugin {
 	var mContext:BaseAppPluginContext;

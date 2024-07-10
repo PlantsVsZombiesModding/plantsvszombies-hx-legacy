@@ -1,4 +1,4 @@
-package com.popcap.flash.games.pvz.logic.UI;
+package com.popcap.flash.games.pvz.logic.ui;
 
 import com.popcap.flash.framework.graphics.Graphics2D;
 import com.popcap.flash.framework.resources.fonts.FontInst;
@@ -13,9 +13,9 @@ import com.popcap.flash.games.pvz.PVZApp;
 import com.popcap.flash.games.pvz.logic.Board;
 import com.popcap.flash.games.pvz.resources.PVZFonts;
 import com.popcap.flash.games.pvz.resources.PVZImages;
-import flash.display.BitmapData;
-import flash.geom.Point;
-import flash.net.URLRequest;
+import openfl.display.BitmapData;
+import openfl.geom.Point;
+import openfl.net.URLRequest;
 import com.XMLC;
 
 class OptionsDialog extends CWidget implements IButtonListener implements ICheckboxListener {

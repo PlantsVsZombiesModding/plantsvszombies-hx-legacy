@@ -1,9 +1,9 @@
 package com.popcap.flash.framework.resources.reanimator;
 
 import com.popcap.flash.framework.AppBase;
-import flash.geom.Matrix;
-import flash.geom.Point;
-import flash.utils.ByteArray;
+import openfl.geom.Matrix;
+import openfl.geom.Point;
+import openfl.utils.ByteArray;
 
 class ByteReanimDescriptor implements ReanimDescriptor {
 	var mBytes:ByteArray;

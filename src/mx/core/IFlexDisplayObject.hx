@@ -1,15 +1,15 @@
 package mx.core;
 
-import flash.accessibility.AccessibilityProperties;
-import flash.display.DisplayObject;
-import flash.display.DisplayObjectContainer;
-import flash.display.IBitmapDrawable;
-import flash.display.LoaderInfo;
-import flash.display.Stage;
-import flash.events.IEventDispatcher;
-import flash.geom.Point;
-import flash.geom.Rectangle;
-import flash.geom.Transform;
+import openfl.accessibility.AccessibilityProperties;
+import openfl.display.DisplayObject;
+import openfl.display.DisplayObjectContainer;
+import openfl.display.IBitmapDrawable;
+import openfl.display.LoaderInfo;
+import openfl.display.Stage;
+import openfl.events.IEventDispatcher;
+import openfl.geom.Point;
+import openfl.geom.Rectangle;
+import openfl.geom.Transform;
 
 interface IFlexDisplayObject extends IBitmapDrawable extends IEventDispatcher {
 	@:flash.property @:isVar var visible(get, set):Bool;

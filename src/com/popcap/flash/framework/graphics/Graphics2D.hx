@@ -2,11 +2,11 @@ package com.popcap.flash.framework.graphics;
 
 import com.popcap.flash.framework.resources.fonts.FontInst;
 import com.popcap.flash.framework.resources.images.ImageInst;
-import flash.display.BitmapData;
-import flash.geom.ColorTransform;
-import flash.geom.Matrix;
-import flash.geom.Point;
-import flash.geom.Rectangle;
+import openfl.display.BitmapData;
+import openfl.geom.ColorTransform;
+import openfl.geom.Matrix;
+import openfl.geom.Point;
+import openfl.geom.Rectangle;
 
 class Graphics2D {
 	static var mScratchRect:Rectangle = new Rectangle();

@@ -7,12 +7,12 @@ import com.popcap.flash.framework.parsers.desc.ListDataElement;
 import com.popcap.flash.framework.parsers.desc.SingleDataElement;
 import com.popcap.flash.framework.resources.images.ImageData;
 import com.popcap.flash.framework.resources.images.ImageInst;
-import flash.display.Bitmap;
-import flash.display.BitmapData;
-import flash.display.BitmapDataChannel;
-import flash.geom.Point;
-import flash.geom.Rectangle;
-import flash.utils.ByteArray;
+import openfl.display.Bitmap;
+import openfl.display.BitmapData;
+import openfl.display.BitmapDataChannel;
+import openfl.geom.Point;
+import openfl.geom.Rectangle;
+import openfl.utils.ByteArray;
 
 class TXTFontDescriptor implements FontDescriptor {
 	var mImageClazzes:Array<ASAny>;

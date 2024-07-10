@@ -1,7 +1,7 @@
 package com.popcap.flash.framework.resources.fonts;
 
 import com.popcap.flash.framework.resources.images.ImageInst;
-import flash.geom.Point;
+import openfl.geom.Point;
 
 class FontLayer {
 	public var mPointSize:Float = Math.NaN;

@@ -6,11 +6,11 @@ import com.popcap.flash.framework.resources.particles.ParticleSystem;
 import com.popcap.flash.framework.resources.reanimator.Reanimation;
 import com.popcap.flash.games.pvz.PVZApp;
 import com.popcap.flash.games.pvz.PVZFoleyType;
-import com.popcap.flash.games.pvz.logic.plants.CPlant;
+import com.popcap.flash.games.pvz.login.plants.CPlant;
 import com.popcap.flash.games.pvz.renderables.ParticleRenderable;
 import com.popcap.flash.games.pvz.resources.PVZImages;
 import com.popcap.flash.games.pvz.resources.PVZParticles;
-import flash.geom.Rectangle;
+import openfl.geom.Rectangle;
 
 class GridItem {
 	public static inline final GRIDITEM_GRAVESTONE = 1;

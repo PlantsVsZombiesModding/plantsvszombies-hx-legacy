@@ -5,7 +5,7 @@ import com.popcap.flash.framework.render.Renderable;
 import com.popcap.flash.framework.resources.fonts.FontInst;
 import com.popcap.flash.framework.resources.images.ImageInst;
 import com.popcap.flash.framework.utils.Utils;
-import flash.geom.Rectangle;
+import openfl.geom.Rectangle;
 
 class StringRenderable implements Renderable {
 	public static inline final JUSTIFY_CENTER = "center";

@@ -1,6 +1,6 @@
 package com.popcap.flash.framework.resources.images;
 
-import flash.display.BitmapData;
+import openfl.display.BitmapData;
 
 class ImageData {
 	public var cels:Array<ASAny>;

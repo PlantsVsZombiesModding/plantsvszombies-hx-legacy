@@ -1,7 +1,7 @@
 package com.popcap.flash.games.pvz.resources;
 
 import com.popcap.flash.framework.resources.reanimator.ByteReanimDescriptor;
-import flash.utils.ByteArray;
+import openfl.utils.ByteArray;
 
 class PVZReanimLoader {
 	static final REANIM_ZOMBIE_FOOTBALL_CLASS:Class<Dynamic> = PVZReanimLoader_REANIM_ZOMBIE_FOOTBALL_CLASS;

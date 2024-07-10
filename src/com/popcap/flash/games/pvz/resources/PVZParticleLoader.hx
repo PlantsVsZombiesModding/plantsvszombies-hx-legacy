@@ -1,7 +1,7 @@
 package com.popcap.flash.games.pvz.resources;
 
 import com.popcap.flash.framework.resources.particles.ByteParticleDescriptor;
-import flash.utils.ByteArray;
+import openfl.utils.ByteArray;
 
 class PVZParticleLoader {
 	public static final PARTICLE_ZOMBIEFLAG_CLASS:Class<Dynamic> = PVZParticleLoader_PARTICLE_ZOMBIEFLAG_CLASS;
