@@ -3,6 +3,7 @@ package com.popcap.flash.games.pvz
    import com.popcap.flash.framework.AppBase;
    import com.popcap.flash.framework.AppUtils;
    import flash.external.ExternalInterface;
+   import com.XMLC;
    
    public class MSNAdAPI
    {
@@ -67,7 +68,7 @@ package com.popcap.flash.games.pvz
          this.togglePause(isPaused);
       }
       
-      public function CustomEvent(data:XML, callback:Function) : void
+      public function CustomEvent(data:XMLC, callback:Function) : void
       {
          if(!this.mEnabled || !ExternalInterface.available)
          {
@@ -83,9 +84,9 @@ package com.popcap.flash.games.pvz
       {
          var result:Boolean = false;
          this.mEnabled = AppUtils.asBoolean(this.mApp.getProperties().MSN.enabled) && ExternalInterface.available;
-         this.mLoadBroadcastRate = AppUtils.asNumber(this.mApp.getProperties().MSN.loadBroadcastRate,DEFAULT_LOAD_BROADCAST_RATE);
+         //this.mLoadBroadcastRate = AppUtils.asNumber(this.mApp.getProperties().MSN.loadBroadcastRate,DEFAULT_LOAD_BROADCAST_RATE);
          this.mLoadBroadcastRate = Math.max(this.mLoadBroadcastRate,MIN_BROADCAST_RATE);
-         this.mScoreBroadcastRate = AppUtils.asNumber(this.mApp.getProperties().MSN.scoreBroadcastRate,DEFAULT_SCORE_BROADCAST_RATE);
+         //this.mScoreBroadcastRate = AppUtils.asNumber(this.mApp.getProperties().MSN.scoreBroadcastRate,DEFAULT_SCORE_BROADCAST_RATE);
          this.mScoreBroadcastRate = Math.max(this.mScoreBroadcastRate,MIN_BROADCAST_RATE);
          if(!this.mEnabled)
          {

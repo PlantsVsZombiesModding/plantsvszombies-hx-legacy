@@ -1,5 +1,7 @@
 package com.popcap.flash.framework
 {
+   import com.XMLC;
+
    import flash.display.Loader;
    import flash.display.LoaderInfo;
    import flash.events.Event;
@@ -14,7 +16,7 @@ package com.popcap.flash.framework
       
       private var mLoader:Loader;
       
-      private var mProperties:XML;
+      private var mProperties:XMLC;
       
       private var mLoaded:Boolean = false;
       
@@ -22,7 +24,7 @@ package com.popcap.flash.framework
       
       private var mActivator:IAppPluginActivator;
       
-      public function BaseAppPlugin(param1:AppBase, param2:XML)
+      public function BaseAppPlugin(param1:AppBase, param2:XMLC)
       {
          //super();
          this.mApp = param1;
@@ -35,11 +37,11 @@ package com.popcap.flash.framework
       
       public function load() : void
       {
-         var _loc1_:URLRequest = new URLRequest(this.mProperties.@source);
-         this.mLoader.load(_loc1_);
+         //var _loc1_:URLRequest = new URLRequest(this.mProperties.@source);
+         //this.mLoader.load(_loc1_);
       }
       
-      public function getProperties() : XML
+      public function getProperties() : XMLC
       {
          return this.mProperties;
       }

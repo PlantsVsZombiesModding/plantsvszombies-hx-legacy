@@ -587,7 +587,7 @@ package com.popcap.flash.games.pvz.logic
             }
             if(this.IsSun() && mBoard && !mBoard.HasConveyorBeltSeedBank())
             {
-               for(i = 0; i < mBoard.mSeedBank.mNumPackets; i++)
+               for(var i = 0; i < mBoard.mSeedBank.mNumPackets; i++)
                {
                   aSeedPacket = mBoard.mSeedBank.mSeedPackets[i];
                   aCost = mBoard.GetCurrentPlantCost(aSeedPacket.mPacketType);

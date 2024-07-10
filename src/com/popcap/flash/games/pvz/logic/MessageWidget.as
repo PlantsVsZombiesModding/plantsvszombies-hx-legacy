@@ -353,7 +353,7 @@ package com.popcap.flash.games.pvz.logic
                aNumWavesPerFlag = this.mBoard.GetNumWavesPerFlag();
                aFlags = this.mBoard.mChallenge.mSurvivalStage * this.mBoard.GetNumWavesPerSurvivalStage() / aNumWavesPerFlag;
                aFlagStr = this.mBoard.Pluralize(aFlags,"[ONE_FLAG]","[COUNT_FLAGS]");
-               aSubStr = this.app.stringManager.translateString("[FLAGS_COMPLETED]").replace("{FLAGS}",aFlagStr);
+               aSubStr = this.app.stringManager.translateString("[FLAGS_COMPLETED]").split("{FLAGS}").join(aFlagStr);
             }
             if(aSubStr.length > 0)
             {

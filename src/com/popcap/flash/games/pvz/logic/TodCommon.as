@@ -154,7 +154,7 @@ package com.popcap.flash.games.pvz.logic
          }
          var aPick:int = Math.random() * aTotalWeight;
          var aAcculumatedWeight:int = 0;
-         for(i = 0; i < theCount; i++)
+         for(var i = 0; i < theCount; i++)
          {
             aAcculumatedWeight += theArray[i].mWeight;
             if(aPick < aAcculumatedWeight)
@@ -266,7 +266,7 @@ package com.popcap.flash.games.pvz.logic
          }
          var aPick:int = Math.random() * aTotalWeight;
          var aAcculumatedWeight:int = 0;
-         for(i = 0; i < theCount; i++)
+         for(var i = 0; i < theCount; i++)
          {
             aAcculumatedWeight += theArray[i].mWeight;
             if(aPick < aAcculumatedWeight)
@@ -313,7 +313,7 @@ package com.popcap.flash.games.pvz.logic
          }
          var aNormalizeFactor:Number = 1 / aTotalWeight;
          var aTotalAdjustedWeight:Number = 0;
-         for(i = 0; i < theCount; i++)
+         for(var i = 0; i < theCount; i++)
          {
             aTotalAdjustedWeight += TodCalcSmoothWeight(theArray[i].mWeight * aNormalizeFactor,theArray[i].mLastPicked,theArray[i].mSecondLastPicked);
          }
@@ -328,7 +328,7 @@ package com.popcap.flash.games.pvz.logic
                break;
             }
          }
-         for(i = 0; i < theCount; i++)
+         for(var i = 0; i < theCount; i++)
          {
             if(theArray[i].mWeight > 0)
             {

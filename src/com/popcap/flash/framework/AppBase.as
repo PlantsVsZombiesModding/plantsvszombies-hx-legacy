@@ -1,5 +1,8 @@
 package com.popcap.flash.framework
 {
+
+   import com.XMLC;
+
    import com.popcap.flash.framework.graphics.Graphics2D;
    import com.popcap.flash.framework.resources.ResourceManager;
    import com.popcap.flash.framework.resources.fonts.FontManager;
@@ -126,7 +129,7 @@ package com.popcap.flash.framework
       
       private var mImageManager:ImageManager;
       
-      protected var mDataXML:XML = null;
+      protected var mDataXML:XMLC = null;
       
       private var avgTaskTime:Number = 0;
       
@@ -487,7 +490,7 @@ package com.popcap.flash.framework
          }
       }
       
-      public function getProperties() : XML
+      public function getProperties() : XMLC
       {
          return this.mDataXML;
       }
@@ -630,7 +633,7 @@ package com.popcap.flash.framework
       public function start() : void
       {
          this.mVersion = "v" + this.mDataXML.version.major + "." + this.mDataXML.version.minor;
-         var _loc1_:int = int(this.mDataXML.cheats.bind.length());
+         var _loc1_:int = 0; //int(this.mDataXML.cheats.bind.length());
          var _loc2_:int = 0;
          while(_loc2_ < _loc1_)
          {
@@ -754,17 +757,17 @@ package com.popcap.flash.framework
       
       private function handleDataLoaded(param1:Event) : void
       {
-         var _loc6_:XML = null;
+         var _loc6_:XMLC = null;
          var _loc7_:BaseAppPlugin = null;
          var _loc2_:URLLoader = param1.target as URLLoader;
          _loc2_.removeEventListener(Event.COMPLETE,this.handleDataLoaded);
-         var _loc3_:XML = new XML(param1.target.data);
+         var _loc3_:XMLC = new XMLC(param1.target.data);
          this.mDataXML = _loc3_;
-         var _loc4_:int = int(_loc3_.Plugins.Plugin.length());
+         var _loc4_:int = 0; //int(_loc3_.Plugins.Plugin.length());
          var _loc5_:int = 0;
          while(_loc5_ < _loc4_)
          {
-            _loc6_ = _loc3_.Plugins.Plugin[_loc5_];
+            //_loc6_ = _loc3_.Plugins.Plugin[_loc5_];
             _loc7_ = new BaseAppPlugin(this,_loc6_);
             this.mPlugins.push(_loc7_);
             _loc7_.load();
@@ -773,7 +776,7 @@ package com.popcap.flash.framework
          this.start();
       }
       
-      public function registerService(param1:BaseAppPlugin, param2:Vector.<String>, param3:Object, param4:XML) : IAppServiceRegistration
+      public function registerService(param1:BaseAppPlugin, param2:Vector.<String>, param3:Object, param4:XMLC) : IAppServiceRegistration
       {
          var _loc6_:String = null;
          var _loc7_:Vector.<BaseAppServiceRegistration> = null;
@@ -799,11 +802,12 @@ package com.popcap.flash.framework
       
       public function canLoadData() : Boolean
       {
-         return AppUtils.asBoolean(this.mDataXML.saveData.canLoad,true);
+         return true; //AppUtils.asBoolean(this.mDataXML.saveData.canLoad,true);
       }
       
-      private function addBinding(param1:XML) : void
+      private function addBinding(param1:XMLC) : void
       {
+         /*
          var _loc6_:String = null;
          var _loc7_:String = null;
          var _loc2_:String = param1.@keyCombo;
@@ -839,6 +843,7 @@ package com.popcap.flash.framework
             }
          }
          this.mCheatBindings[_loc3_ << 3 | _loc5_] = param1.toString();
+         */
       }
       
       public function get appHeight() : Number
@@ -896,7 +901,7 @@ package com.popcap.flash.framework
       
       public function canSaveData() : Boolean
       {
-         return AppUtils.asBoolean(this.mDataXML.saveData.canSave,true);
+         return true; //AppUtils.asBoolean(this.mDataXML.saveData.canSave,true);
       }
       
       private function resumeUpdates() : void

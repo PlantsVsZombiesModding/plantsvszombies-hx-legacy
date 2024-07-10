@@ -30,6 +30,8 @@ package com.popcap.flash.games.pvz.states.mainmenu
    import flash.net.URLRequest;
    import flash.net.navigateToURL;
    
+   import com.XMLC;
+
    public class MainMenuState implements IState, IButtonListener, ICheckboxListener
    {
       
@@ -434,7 +436,7 @@ package com.popcap.flash.games.pvz.states.mainmenu
          var mode:int = -1;
          var level:int = -1;
          var doStart:Boolean = false;
-         var upsellXML:XML = <data>DeluxeDownload</data>;
+         var upsellXML:XMLC = null; //'<data>DeluxeDownload</data>;
          switch(id)
          {
             case this.GameSelector_Upsell:

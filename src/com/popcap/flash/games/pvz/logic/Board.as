@@ -1260,7 +1260,7 @@ package com.popcap.flash.games.pvz.logic
          }
          for(var aWaveIndex:int = 0; aWaveIndex < this.mApp.mBoard.mNumWaves; aWaveIndex++)
          {
-            for(i = 0; i < Board.MAX_ZOMBIES_IN_WAVE; i++)
+            for(var i = 0; i < Board.MAX_ZOMBIES_IN_WAVE; i++)
             {
                aZombieType = int(this.mApp.mBoard.mZombiesInWave[aWaveIndex][i]);
                if(aZombieType == Board.ZOMBIE_INVALID)
@@ -1552,6 +1552,7 @@ package com.popcap.flash.games.pvz.logic
          this.AddCoin(x,40,aCoinType,COIN_MOTION_FROM_SKY);
       }
       
+      
       public function DrawLevelLabel(g:Graphics2D) : void
       {
          var aLevelStr:String = null;
@@ -1571,7 +1572,7 @@ package com.popcap.flash.games.pvz.logic
             if(aFlags > 0)
             {
                aFlagStr = this.Pluralize(aFlags,"[ONE_FLAG]","[COUNT_FLAGS]");
-               aCompletedStr = this.mApp.stringManager.translateString("[FLAGS_COMPLETED]").replace("{FLAGS}",aFlagStr);
+               aCompletedStr = this.mApp.stringManager.translateString("[FLAGS_COMPLETED]").split("{FLAGS}").join(aFlagStr);
                aLevelStr = this.mApp.stringManager.translateString("[SURVIVAL_POOL_ENDLESS]") + " " + aCompletedStr;
             }
             else
@@ -1592,7 +1593,7 @@ package com.popcap.flash.games.pvz.logic
             }
             if(aStreak > 0)
             {
-               aStr = this.mApp.stringManager.translateString("[ENDLESS_STREAK]").replace("{STREAK}",aStreak);
+               aStr = this.mApp.stringManager.translateString("[ENDLESS_STREAK]").split("{STREAK}").join(aStreak);
                aLevelStr = aStr;
             }
             else
@@ -1751,7 +1752,7 @@ package com.popcap.flash.games.pvz.logic
          if(this.ProgressMeterHasFlags())
          {
             aNumWavesPerFlag = this.GetNumWavesPerFlag();
-            for(i = 1; i <= this.mNumWaves / aNumWavesPerFlag; i++)
+            for(var i = 1; i <= this.mNumWaves / aNumWavesPerFlag; i++)
             {
                aWave = i * aNumWavesPerFlag;
                aHeight = 0;
@@ -1860,7 +1861,7 @@ package com.popcap.flash.games.pvz.logic
             this.mHelpDisplayed[i] = false;
          }
          this.mSeedBank.mNumPackets = this.GetNumSeedsInBank();
-         for(i = 0; i < SeedBank.SEEDBANK_MAX; i++)
+         for(var i = 0; i < SeedBank.SEEDBANK_MAX; i++)
          {
             aSeedPacket = new SeedPacket(this.mApp,this);
             aSeedPacket.mIndex = i;
@@ -1883,7 +1884,7 @@ package com.popcap.flash.games.pvz.logic
          else if(!this.ChooseSeedsOnCurrentLevel() && !this.HasConveyorBeltSeedBank())
          {
             this.mSeedBank.mNumPackets = this.GetNumSeedsInBank();
-            for(i = 0; i < this.mSeedBank.mNumPackets; i++)
+            for(var i = 0; i < this.mSeedBank.mNumPackets; i++)
             {
                this.mSeedBank.mSeedPackets[i].mPacketType = i;
                if(this.mSeedBank.mSeedPackets[i].GetRefreshTime(this.mSeedBank.mSeedPackets[i].mPacketType) == 3000)
@@ -3312,7 +3313,7 @@ package com.popcap.flash.games.pvz.logic
             {
                aBasicZombiePoints = Math.min(aZombiePicker.mZombiePoints,8);
                aZombiePicker.mZombiePoints *= 2.5;
-               for(i = 0; i < aBasicZombiePoints; i++)
+               for(var i = 0; i < aBasicZombiePoints; i++)
                {
                   this.PutZombieInWave(ZOMBIE_NORMAL,aWaveNumber,aZombiePicker);
                }
@@ -3348,7 +3349,7 @@ package com.popcap.flash.games.pvz.logic
                this.PutZombieInWave(aZombieType,aWaveNumber,aZombiePicker);
             }
          }
-         for(i = 0; i < MAX_ZOMBIES_IN_WAVE; i++)
+         for(var i = 0; i < MAX_ZOMBIES_IN_WAVE; i++)
          {
          }
       }
@@ -3502,16 +3503,16 @@ package com.popcap.flash.games.pvz.logic
          if(theCount == 1)
          {
             aResult = this.mApp.stringManager.translateString(theSingular);
-            if(aResult.match("{COUNT}") != null)
+            if(aResult.lastIndexOf("{COUNT}") != -1)
             {
-               aResult.replace("{COUNT}",theCount + " ");
+               aResult.split("{COUNT}").join(theCount + " ");
             }
             return aResult;
          }
          aResult = this.mApp.stringManager.translateString(thePlural);
-         if(aResult.match("{COUNT}") != null)
+         if(aResult.lastIndexOf("{COUNT}") != -1)
          {
-            aResult = aResult.replace("{COUNT}",theCount + " ");
+            aResult = aResult.split("{COUNT}").join(theCount + " ");
          }
          return aResult;
       }
@@ -4070,7 +4071,7 @@ package com.popcap.flash.games.pvz.logic
                   aCoin.TryAutoCollectAfterLevelAward();
                }
             }
-            aMessage = this.mApp.stringManager.translateString("[ADVICE_MORE_SCARY_POTS]").replace("{STREAK}",this.mChallenge.mSurvivalStage + 1);
+            aMessage = this.mApp.stringManager.translateString("[ADVICE_MORE_SCARY_POTS]").split("{STREAK}").join(this.mChallenge.mSurvivalStage + 1);
             this.ClearAdvice(ADVICE_NONE);
             this.DisplayAdvice(aMessage,MESSAGE_STYLE_BIG_MIDDLE,ADVICE_NONE);
          }
@@ -4180,7 +4181,7 @@ package com.popcap.flash.games.pvz.logic
                }
             }
          }
-         for(i = 0; i < GRIDSIZEY; i++)
+         for(var i = 0; i < GRIDSIZEY; i++)
          {
          }
          return TodCommon.TodPickFromSmoothArray(this.mRowPickingArray,GRIDSIZEY);

@@ -131,9 +131,9 @@ package com.popcap.flash.games.pvz.states.playing
          }
          if(!(this.mCrazyDaveState == CRAZY_DAVE_TALKING && !aDoTalkSound))
          {
-            if(theMessage.match("{SHAKE}") != null)
+            if(theMessage.lastIndexOf("{SHAKE}") != -1)
             {
-               theMessage = theMessage.replace("{SHAKE}","");
+               theMessage = theMessage.split("{SHAKE}").join("");
                this.mCrazyDaveReanim.currentTrack = "anim_crazy";
                this.mCrazyDaveReanim.animRate = 12;
                anArray[0] = "anim_idle";
@@ -144,9 +144,9 @@ package com.popcap.flash.games.pvz.states.playing
                }
                this.mCrazyDaveState = CRAZY_DAVE_TALKING;
             }
-            else if(theMessage.match("{SCREAM}") != null)
+            else if(theMessage.lastIndexOf("{SCREAM}") != -1)
             {
-               theMessage = theMessage.replace("{SCREAM}","");
+               theMessage = theMessage.split("{SCREAM}").join("");
                this.mCrazyDaveReanim.currentTrack = "anim_smalltalk";
                this.mCrazyDaveReanim.animRate = 12;
                anArray[0] = "anim_idle";
@@ -157,9 +157,9 @@ package com.popcap.flash.games.pvz.states.playing
                }
                this.mCrazyDaveState = CRAZY_DAVE_TALKING;
             }
-            else if(theMessage.match("{SHOW_WALLNUT}") != null)
+            else if(theMessage.lastIndexOf("{SHOW_WALLNUT}") != -1)
             {
-               theMessage = theMessage.replace("{SHOW_WALLNUT}","");
+               theMessage = theMessage.split("{SHOW_WALLNUT}").join("");
                this.mCrazyDaveReanim.currentTrack = "anim_talk_handing";
                this.mCrazyDaveReanim.animRate = 12;
                anArray[0] = "anim_idle_handing";
@@ -175,7 +175,7 @@ package com.popcap.flash.games.pvz.states.playing
                }
                this.mCrazyDaveState = CRAZY_DAVE_HANDING_TALKING;
             }
-            else if(theMessage.match("{SHOW_HAMMER}") == null)
+            else if(theMessage.lastIndexOf("{SHOW_HAMMER}") == -1)
             {
                if(aMessageLen < 23)
                {
@@ -215,10 +215,10 @@ package com.popcap.flash.games.pvz.states.playing
                }
             }
          }
-         theMessage = theMessage.replace("{MOUTH_SMALL_OH}","");
-         theMessage = theMessage.replace("{MOUTH_SMALL_SMILE}","");
-         theMessage = theMessage.replace("{MOUTH_BIG_SMILE}","");
-         theMessage = theMessage.replace("{SHAKE}","");
+         theMessage = theMessage.split("{MOUTH_SMALL_OH}").join("");
+         theMessage = theMessage.split("{MOUTH_SMALL_SMILE}").join("");
+         theMessage = theMessage.split("{MOUTH_BIG_SMILE}").join("");
+         theMessage = theMessage.split("{SHAKE}").join("");
          this.mCrazyDaveMessageText = theMessage;
       }
       

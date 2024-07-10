@@ -141,7 +141,7 @@ package com.popcap.flash.framework.resources.particles
             aParticle.mParticleFieldInterp[i][0] = Math.random();
             aParticle.mParticleFieldInterp[i][1] = Math.random();
          }
-         for(i = 0; i < Particle.NUM_PARTICLE_TRACKS; i++)
+         for(var i = 0; i < Particle.NUM_PARTICLE_TRACKS; i++)
          {
             aParticle.mParticleInterp[i] = Math.random();
          }
@@ -264,7 +264,7 @@ package com.popcap.flash.framework.resources.particles
          if(!this.mEmitterDef.mParticleFlags.hasFlags(ParticleFlags.PARTICLES_DONT_FOLLOW))
          {
             aNumParticles = int(this.mParticleList.length);
-            for(i = 0; i < aNumParticles; i += 1)
+            for(var i = 0; i < aNumParticles; i += 1)
             {
                aParticle = this.mParticleList[i];
                aParticle.mPosition.x += deltaX;

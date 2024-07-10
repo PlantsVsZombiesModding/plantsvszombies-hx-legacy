@@ -13,6 +13,8 @@ package com.popcap.flash.games.pvz.logic.UI
    import com.popcap.flash.games.pvz.resources.PVZImages;
    import flash.net.URLRequest;
    import flash.net.navigateToURL;
+
+   import com.XMLC;
    
    public class UpsellScreen extends CWidget implements IButtonListener
    {
@@ -58,7 +60,7 @@ package com.popcap.flash.games.pvz.logic.UI
       
       private var mHeader1Description:StringRenderable;
       
-      private var upsellXML:XML;
+      private var upsellXML:XMLC;
       
       private var mURLRequest:URLRequest;
       
@@ -66,7 +68,7 @@ package com.popcap.flash.games.pvz.logic.UI
       
       public function UpsellScreen(app:PVZApp, theType:int)
       {
-         this.upsellXML = <data>DeluxeDownload</data>;
+         //this.upsellXML = <data>DeluxeDownload</data>;
          //super();
          this.app = app;
          this.mURLRequest = new URLRequest(app.mUpsellLink);

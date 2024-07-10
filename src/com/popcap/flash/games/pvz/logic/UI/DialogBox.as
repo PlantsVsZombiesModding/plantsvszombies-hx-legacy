@@ -339,7 +339,7 @@ package com.popcap.flash.games.pvz.logic.UI
          var bufferG:Graphics2D = aBufferedImage.graphics;
          anImage = this.app.imageManager.getImageInst(PVZImages.IMAGE_DIALOG_TOPLEFT);
          bufferG.drawImage(anImage,x + 1,y);
-         for(i = 0; i < width; i++)
+         for(var i = 0; i < width; i++)
          {
             x += anImage.width - 1;
             anImage = this.app.imageManager.getImageInst(PVZImages.IMAGE_DIALOG_TOPMIDDLE);
@@ -351,7 +351,7 @@ package com.popcap.flash.games.pvz.logic.UI
          x += anImage.width;
          anImage = this.app.imageManager.getImageInst(PVZImages.IMAGE_DIALOG_TOPRIGHT);
          bufferG.drawImage(anImage,x - 3,y);
-         for(i = 0; i < height; i++)
+         for(var i = 0; i < height; i++)
          {
             x = 0;
             y += anImage.height - 1;
@@ -371,7 +371,7 @@ package com.popcap.flash.games.pvz.logic.UI
          y += anImage.height - 2;
          anImage = this.app.imageManager.getImageInst(PVZImages.IMAGE_DIALOG_BOTTOMLEFT);
          bufferG.drawImage(anImage,x + 1,y - 1);
-         for(i = 0; i < width; i++)
+         for(var i = 0; i < width; i++)
          {
             x += anImage.width - 1;
             anImage = this.app.imageManager.getImageInst(PVZImages.IMAGE_DIALOG_BOTTOMMIDDLE);

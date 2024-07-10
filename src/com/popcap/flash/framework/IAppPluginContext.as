@@ -1,12 +1,14 @@
 package com.popcap.flash.framework
 {
    import flash.events.IEventDispatcher;
+   import com.XMLC;
+
    
    public interface IAppPluginContext extends IEventDispatcher
    {
        
       
-      function registerService(param1:Vector.<String>, param2:Object, param3:XML) : IAppServiceRegistration;
+      function registerService(param1:Vector.<String>, param2:Object, param3:XMLC) : IAppServiceRegistration;
       
       function getServiceReferences(param1:String) : Vector.<IAppServiceReference>;
       

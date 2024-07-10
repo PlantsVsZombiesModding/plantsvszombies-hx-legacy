@@ -36,6 +36,8 @@ package com.popcap.flash.games.pvz
    import com.popcap.flash.games.pvz.states.playing.ZombiesWonState;
    import flash.display.Loader;
    import flash.utils.describeType;
+
+   import com.XMLC;
    
    public class PVZApp extends AppBase
    {
@@ -302,7 +304,7 @@ package com.popcap.flash.games.pvz
       
       override public function init() : void
       {
-         var constant:XML = null;
+         var constant:XMLC = null;
          var foleyName:String = null;
          var ft:FoleyType = null;
          super.init();
@@ -310,13 +312,15 @@ package com.popcap.flash.games.pvz
          this.mReanimator = new Reanimator(this);
          this.mParticleManager = new ParticleManager(this);
          this.mFoleyManager = new FoleyManager(this);
-         var foleyType:XML = describeType(PVZFoleyType);
+         var foleyType:XMLC = describeType(PVZFoleyType);
+         /*
          for each(constant in foleyType.constant)
          {
             foleyName = constant.@name;
             ft = PVZFoleyType[foleyName] as FoleyType;
             this.mFoleyManager.loadFoley(ft);
          }
+         */
          musicManager.registerMusic(PVZMusic.CEREBRAWL,PVZMusic.CEREBRAWL_FILE);
          musicManager.registerMusic(PVZMusic.CHOOSE_YOUR_SEEDS,PVZMusic.CHOOSE_YOUR_SEEDS_FILE);
          musicManager.registerMusic(PVZMusic.CONVEYOR,PVZMusic.CONVEYOR_FILE);

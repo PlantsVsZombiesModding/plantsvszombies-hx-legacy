@@ -169,7 +169,7 @@ package com.popcap.flash.games.pvz.logic
          var aBlank:ImageInst = this.app.imageManager.getImageInst(PVZImages.IMAGE_CHALLENGE_BLANK);
          if(this.app.IsScaryPotterLevel())
          {
-            for(i = 1; i < 20; i++)
+            for(var i = 1; i < 20; i++)
             {
                aRow = i / 5;
                aCol = i % 5;
@@ -180,7 +180,7 @@ package com.popcap.flash.games.pvz.logic
          }
          else if(this.app.IsSurvivalMode())
          {
-            for(i = 1; i < 10; i++)
+            for(var i = 1; i < 10; i++)
             {
                aRow = i / 5;
                aCol = i % 5;

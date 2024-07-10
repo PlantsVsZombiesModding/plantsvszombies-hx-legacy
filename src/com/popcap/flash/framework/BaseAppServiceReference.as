@@ -1,5 +1,6 @@
 package com.popcap.flash.framework
 {
+   import com.XMLC;
    public class BaseAppServiceReference implements IAppServiceReference
    {
        
@@ -15,7 +16,7 @@ package com.popcap.flash.framework
          this.mRegistration = param2;
       }
       
-      public function getProperties() : XML
+      public function getProperties() : XMLC
       {
          return this.mRegistration.getProperties();
       }

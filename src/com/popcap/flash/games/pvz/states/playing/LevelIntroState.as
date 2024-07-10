@@ -119,7 +119,7 @@ package com.popcap.flash.games.pvz.states.playing
          }
          for(var aWaveIndex:int = 0; aWaveIndex < this.app.mBoard.mNumWaves; aWaveIndex++)
          {
-            for(i = 0; i < Board.MAX_ZOMBIES_IN_WAVE; i++)
+            for(var i = 0; i < Board.MAX_ZOMBIES_IN_WAVE; i++)
             {
                aZombieType = int(this.app.mBoard.mZombiesInWave[aWaveIndex][i]);
                if(aZombieType == Board.ZOMBIE_INVALID)

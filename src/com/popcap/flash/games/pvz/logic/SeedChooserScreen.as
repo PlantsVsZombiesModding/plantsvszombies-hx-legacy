@@ -179,7 +179,7 @@ package com.popcap.flash.games.pvz.logic
             this.mLawnViewButton.visible = false;
             this.mLawnViewButton.setDisabled(true);
          }
-         for(i = 0; i < 12; i++)
+         for(var i = 0; i < 12; i++)
          {
             aChosenSeed = new ChosenSeed();
             aPoint = new Point();
@@ -202,7 +202,7 @@ package com.popcap.flash.games.pvz.logic
          }
          if(app.IsSurvivalMode() && this.mBoard.mChallenge.mSurvivalStage > 0 && this.mBoard.mGameScene == Board.SCENE_LEVEL_INTRO)
          {
-            for(i = 0; i < this.mBoard.mSeedBank.mNumPackets; i++)
+            for(var i = 0; i < this.mBoard.mSeedBank.mNumPackets; i++)
             {
                aSeedPacket = this.mBoard.mSeedBank.mSeedPackets[i];
                aSeedType = aSeedPacket.mPacketType;
@@ -210,7 +210,7 @@ package com.popcap.flash.games.pvz.logic
                aChosenSeed.mRefreshing = aSeedPacket.mRefreshing;
                aChosenSeed.mRefreshCounter = aSeedPacket.mRefreshCounter;
             }
-            for(i = 0; i < 6; i++)
+            for(var i = 0; i < 6; i++)
             {
                aSeedPacket = this.mBoard.mSeedBank.mSeedPackets[i];
                aSeedPacket.mX = this.mBoard.GetSeedPacketPositionX(i);
@@ -493,7 +493,7 @@ package com.popcap.flash.games.pvz.logic
                ++this.mSeedsInFlight;
             }
          }
-         i = theChosenSeed.mSeedIndexInBank;
+         var i = theChosenSeed.mSeedIndexInBank;
          if(this.mBoard.mSeedBank.mSeedPackets[i].mPacketType != SEED_NONE)
          {
             this.mBoard.mSeedBank.mSeedPackets[i].mVisible = false;
@@ -556,7 +556,7 @@ package com.popcap.flash.games.pvz.logic
          var aChosenSeed:ChosenSeed = null;
          if(this.mSeedsInFlight > 0)
          {
-            for(i = 0; i < NUM_SEEDS_IN_CHOOSER; i++)
+            for(var i = 0; i < NUM_SEEDS_IN_CHOOSER; i++)
             {
                aChosenSeed = this.mChosenSeeds[i];
                if(aChosenSeed != null)
@@ -705,7 +705,7 @@ package com.popcap.flash.games.pvz.logic
             }
          }
          var aNumPlacesInBank:int = this.mBoard.mSeedBank.mNumPackets;
-         for(i = 0; i < aNumPlacesInBank; i++)
+         for(var i = 0; i < aNumPlacesInBank; i++)
          {
             if(this.FindSeedInBank(i) == SEED_NONE)
             {
@@ -713,7 +713,7 @@ package com.popcap.flash.games.pvz.logic
                g.drawImage(this.mPacketSilhouette,aPoint.x,aPoint.y);
             }
          }
-         for(i = 0; i < NUM_SEEDS_IN_CHOOSER; i++)
+         for(var i = 0; i < NUM_SEEDS_IN_CHOOSER; i++)
          {
             if(this.HasSeedType(i))
             {
@@ -737,7 +737,7 @@ package com.popcap.flash.games.pvz.logic
                }
             }
          }
-         for(i = 0; i < NUM_SEEDS_IN_CHOOSER; i++)
+         for(var i = 0; i < NUM_SEEDS_IN_CHOOSER; i++)
          {
             if(this.HasSeedType(i))
             {

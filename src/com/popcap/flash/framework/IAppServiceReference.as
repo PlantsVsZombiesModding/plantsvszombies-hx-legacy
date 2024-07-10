@@ -1,10 +1,11 @@
 package com.popcap.flash.framework
 {
+   import com.XMLC;
    public interface IAppServiceReference
    {
        
       
-      function getProperties() : XML;
+      function getProperties() : XMLC;
       
       function getPlugin() : IAppPlugin;
       

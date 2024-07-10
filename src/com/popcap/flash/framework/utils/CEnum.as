@@ -1,7 +1,8 @@
 package com.popcap.flash.framework.utils
 {
    import flash.utils.describeType;
-   
+   import com.XMLC;
+
    public class CEnum
    {
        
@@ -15,12 +16,14 @@ package com.popcap.flash.framework.utils
       
       public static function InitEnumConstants(param1:*) : void
       {
-         var _loc3_:XML = null;
-         var _loc2_:XML = describeType(param1);
+         /*
+         var _loc3_:XMLC = null;
+         var _loc2_:XMLC = describeType(param1);
          for each(_loc3_ in _loc2_.constant)
          {
             param1[_loc3_.@name].name = _loc3_.@name;
          }
+         */
       }
    }
 }

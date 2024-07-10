@@ -341,7 +341,7 @@ package com.popcap.flash.framework.resources.reanimator
          var endFrame:Number = -1;
          var transforms:Array = anim.transforms;
          var numTransforms:int = int(transforms.length);
-         for(i = 0; i < numTransforms; i++)
+         for(var i = 0; i < numTransforms; i++)
          {
             trans = transforms[i];
             if(trans.frame >= 0)

@@ -114,7 +114,7 @@ package com.popcap.flash.framework.utils
          var aImgHeight:Number = 0;
          var i:int = 0;
          var aNumLines:int = int(lines.length);
-         for(i = 0; i < aNumLines; i++)
+         for(var i = 0; i < aNumLines; i++)
          {
             aLine = String(lines[i]);
             aLineWidth = font.stringImageWidth(aLine);
@@ -133,7 +133,7 @@ package com.popcap.flash.framework.utils
          var textImage:ImageInst = new ImageInst(new ImageData(new BitmapData(aImgWidth,aImgHeight,true,0)));
          var g:Graphics2D = textImage.graphics;
          g.setFont(font);
-         for(i = 0; i < aNumLines; i++)
+         for(var i = 0; i < aNumLines; i++)
          {
             aLine = String(lines[i]);
             x = 0;

@@ -297,7 +297,7 @@ package com.popcap.flash.games.pvz.logic
          ++this.mConveyorBeltCounter;
          if(this.mConveyorBeltCounter % CONVEYOR_SPEED == 0)
          {
-            for(i = 0; i < this.mNumPackets; i++)
+            for(var i = 0; i < this.mNumPackets; i++)
             {
                aSeedPacket = this.mSeedPackets[i];
                if(aSeedPacket.mOffsetX > 0)

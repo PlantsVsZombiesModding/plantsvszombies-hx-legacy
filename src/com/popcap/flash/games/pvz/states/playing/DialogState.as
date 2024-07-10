@@ -41,7 +41,7 @@ package com.popcap.flash.games.pvz.states.playing
                this.app.mDialogBox.resize(255 - 63 * 3,130 - 36 * 1,153 + 63 * 4,184 + 36 * 1);
                this.app.mDialogBox.mDialogType = DialogBox.DIALOG_RETRY;
                aMessage = this.app.stringManager.translateString("[ENDLESS_PUZZLE_DEATH_MESSAGE]");
-               aMessage = aMessage.replace("{STREAK}",this.app.mBoard.mChallenge.mSurvivalStage);
+               aMessage = aMessage.split("{STREAK}").join(this.app.mBoard.mChallenge.mSurvivalStage);
                this.app.mDialogBox.InitializeDialogBox(this.app.stringManager.translateString("[SCARY_POTTER_ENDLESS]"),aMessage,this.app.stringManager.translateString("[TRY_AGAIN]"),"",4,1);
             }
             else if(this.app.IsSurvivalMode())
@@ -50,7 +50,7 @@ package com.popcap.flash.games.pvz.states.playing
                this.app.mDialogBox.mDialogType = DialogBox.DIALOG_RETRY;
                aFlags = this.app.mBoard.GetSurvivalFlagsCompleted();
                aFlagStr = this.app.mBoard.Pluralize(aFlags,"[ONE_FLAG]","[COUNT_FLAGS]");
-               aCompletedStr = this.app.stringManager.translateString("[SURVIVAL_DEATH_MESSAGE]").replace("{FLAGS}",aFlagStr);
+               aCompletedStr = this.app.stringManager.translateString("[SURVIVAL_DEATH_MESSAGE]").split("{FLAGS}").join(aFlagStr);
                this.app.mDialogBox.InitializeDialogBox(this.app.stringManager.translateString("[SURVIVAL_POOL_ENDLESS]"),aCompletedStr,this.app.stringManager.translateString("[TRY_AGAIN]"),"",4,2);
             }
          }

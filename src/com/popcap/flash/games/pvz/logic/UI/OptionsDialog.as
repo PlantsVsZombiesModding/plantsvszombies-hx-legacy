@@ -17,6 +17,8 @@ package com.popcap.flash.games.pvz.logic.UI
    import flash.geom.Point;
    import flash.net.URLRequest;
    import flash.net.navigateToURL;
+
+   import com.XMLC;
    
    public class OptionsDialog extends CWidget implements IButtonListener, ICheckboxListener
    {
@@ -66,7 +68,7 @@ package com.popcap.flash.games.pvz.logic.UI
       
       public var mSoundCheckBox:CheckboxWidget;
       
-      private var upsellXML:XML;
+      private var upsellXML:XMLC;
       
       public var mIsMusic:Boolean;
       
@@ -86,7 +88,7 @@ package com.popcap.flash.games.pvz.logic.UI
       {
          var font:FontInst = null;
          var aString:String = null;
-         this.upsellXML = <data>DeluxeDownload</data>;
+         //this.upsellXML = <data>DeluxeDownload</data>;
          //super();
          this.app = app;
          this.mBoard = theBoard;

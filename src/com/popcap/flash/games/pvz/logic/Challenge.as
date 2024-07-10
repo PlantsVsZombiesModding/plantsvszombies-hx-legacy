@@ -727,7 +727,7 @@ package com.popcap.flash.games.pvz.logic
                break;
             case SCARYPOT_SUN:
                aNumSum = theScaryPot.mSunCount;
-               for(i = 0; i < aNumSum; i++)
+               for(var i = 0; i < aNumSum; i++)
                {
                   this.mBoard.AddCoin(aXPos,aYPos,COIN_SUN,COIN_MOTION_FROM_PLANT);
                   aXPos += 15;
@@ -876,7 +876,7 @@ package com.popcap.flash.games.pvz.logic
             if(this.mBoard.mCurrentWave == this.mBoard.mNumWaves - 1)
             {
                aCount = this.mBoard.GetGraveStoneCount();
-               for(i = 0; i < this.mSurvivalStage + 1; i++)
+               for(var i = 0; i < this.mSurvivalStage + 1; i++)
                {
                   if(aCount < 12)
                   {
@@ -915,7 +915,7 @@ package com.popcap.flash.games.pvz.logic
          {
             theCount = aPotArrayCount;
          }
-         for(i = 0; i < theCount; i++)
+         for(var i = 0; i < theCount; i++)
          {
             aResult = TodCommon.TodPickArrayItemFromWeightedArray(aPotArray,aPotArrayCount);
             aResult.mWeight = 0;
@@ -1003,7 +1003,7 @@ package com.popcap.flash.games.pvz.logic
             aSeedPickArray[aNumSeedsType].mWeight = 15;
             aNumSeedsType++;
          }
-         for(i = 0; i < aNumSeedsType; i++)
+         for(var i = 0; i < aNumSeedsType; i++)
          {
             aArrayItem = aSeedPickArray[i];
             aSeedType = aArrayItem.mItem;

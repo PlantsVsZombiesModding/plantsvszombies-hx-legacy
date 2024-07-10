@@ -1,5 +1,7 @@
 package com.popcap.flash.framework
 {
+   import com.XMLC;
+
    import flash.events.Event;
    
    public class BaseAppPluginContext implements IAppPluginContext
@@ -32,7 +34,7 @@ package com.popcap.flash.framework
          return this.mApp.getService(param1);
       }
       
-      public function registerService(param1:Vector.<String>, param2:Object, param3:XML) : IAppServiceRegistration
+      public function registerService(param1:Vector.<String>, param2:Object, param3:XMLC) : IAppServiceRegistration
       {
          return this.mApp.registerService(this.mPlugin,param1,param2,param3);
       }

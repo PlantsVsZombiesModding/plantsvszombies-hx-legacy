@@ -1,10 +1,12 @@
 package com.popcap.flash.framework
 {
+   import com.XMLC;
+
    public class BaseAppServiceRegistration implements IAppServiceRegistration
    {
        
       
-      private var mProperties:XML;
+      private var mProperties:XMLC;
       
       private var mApp:AppBase;
       
@@ -14,7 +16,7 @@ package com.popcap.flash.framework
       
       private var mClasses:Vector.<String>;
       
-      public function BaseAppServiceRegistration(param1:AppBase, param2:BaseAppPlugin, param3:Vector.<String>, param4:Object, param5:XML)
+      public function BaseAppServiceRegistration(param1:AppBase, param2:BaseAppPlugin, param3:Vector.<String>, param4:Object, param5:XMLC)
       {
          //super();
          this.mApp = param1;
@@ -29,12 +31,12 @@ package com.popcap.flash.framework
          throw new Error("Unimplemented stub method.");
       }
       
-      public function setProperties(param1:XML) : void
+      public function setProperties(param1:XMLC) : void
       {
          this.mProperties = param1.copy();
       }
       
-      public function getProperties() : XML
+      public function getProperties() : XMLC
       {
          return this.mProperties.copy();
       }

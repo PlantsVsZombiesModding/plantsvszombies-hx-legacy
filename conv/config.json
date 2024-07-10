@@ -1,0 +1,7 @@
+{
+    "src": "../src/",
+    "hxout": "./hx-out/",
+    "swc": [
+      "playerglobal_32.swc"
+    ]
+  }

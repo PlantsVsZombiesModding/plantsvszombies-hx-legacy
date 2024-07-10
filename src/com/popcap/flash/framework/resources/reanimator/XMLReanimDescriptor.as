@@ -2,6 +2,7 @@ package com.popcap.flash.framework.resources.reanimator
 {
    import com.popcap.flash.framework.AppBase;
    import flash.utils.ByteArray;
+   import com.XMLC;
    
    public class XMLReanimDescriptor implements ReanimDescriptor
    {
@@ -9,7 +10,7 @@ package com.popcap.flash.framework.resources.reanimator
       
       private var mLastTrans:ReanimTransform;
       
-      private var mXML:XML;
+      private var mXML:XMLC;
       
       private var mApp:AppBase;
       
@@ -21,7 +22,7 @@ package com.popcap.flash.framework.resources.reanimator
          this.mBytes = bytes;
       }
       
-      private function parseTransform(xml:XML) : ReanimTransform
+      private function parseTransform(xml:XMLC) : ReanimTransform
       {
          var transform:ReanimTransform = new ReanimTransform();
          var xStr:String = String(xml.x);
@@ -73,12 +74,12 @@ package com.popcap.flash.framework.resources.reanimator
          return transform;
       }
       
-      private function parseDefinition(xml:XML) : ReanimDefinition
+      private function parseDefinition(xml:XMLC) : ReanimDefinition
       {
          var aTrack:ReanimTrack = null;
          var def:ReanimDefinition = new ReanimDefinition();
          def.fps = Number(xml.fps);
-         var len:int = xml.track.length();
+         var len:int = 0;// xml.track.length();
          for(var i:int = 0; i < len; i++)
          {
             aTrack = this.parseTrack(xml.track[i]);
@@ -89,13 +90,13 @@ package com.popcap.flash.framework.resources.reanimator
          return def;
       }
       
-      private function parseTrack(xml:XML) : ReanimTrack
+      private function parseTrack(xml:XMLC) : ReanimTrack
       {
          var aTrans:ReanimTransform = null;
          var track:ReanimTrack = new ReanimTrack();
          track.name = xml.name;
          this.mLastTrans = null;
-         var len:int = xml.t.length();
+         var len:int = 0; //xml.t.length();
          for(var i:int = 0; i < len; i++)
          {
             aTrans = this.parseTransform(xml.t[i]);
@@ -110,7 +111,7 @@ package com.popcap.flash.framework.resources.reanimator
       {
          this.mApp = app;
          this.mBytes.position = 0;
-         this.mXML = new XML(this.mBytes.readUTFBytes(this.mBytes.length));
+         this.mXML = new XMLC(this.mBytes.readUTFBytes(this.mBytes.length));
          return this.parseDefinition(this.mXML);
       }
    }
