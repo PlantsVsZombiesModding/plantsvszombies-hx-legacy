@@ -1,11 +1,7 @@
-package com.popcap.flash.framework
-;
-   import com.XMLC;
+package com.popcap.flash.framework;
 
-    interface IAppPlugin
-   {
-       
-      
-      function getProperties() : XMLC;
-   }
+import com.XMLC;
 
+interface IAppPlugin {
+	function getProperties():XMLC;
+}

@@ -1,15 +1,11 @@
-package com.popcap.flash.framework
-;
-   import com.XMLC;
+package com.popcap.flash.framework;
 
-    interface IAppServiceRegistration
-   {
-       
-      
-      function unregister() : Void;
-      
-      function setProperties(param1:XMLC) : Void;
-      
-      function getReference() : IAppServiceReference;
-   }
+import com.XMLC;
 
+interface IAppServiceRegistration {
+	function unregister():Void;
+
+	function setProperties(param1:XMLC):Void;
+
+	function getReference():IAppServiceReference;
+}

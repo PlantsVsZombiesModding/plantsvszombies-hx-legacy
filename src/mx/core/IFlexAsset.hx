@@ -1,7 +1,3 @@
-package mx.core
-;
-    interface IFlexAsset
-   {
-       
-   }
+package mx.core;
 
+interface IFlexAsset {}

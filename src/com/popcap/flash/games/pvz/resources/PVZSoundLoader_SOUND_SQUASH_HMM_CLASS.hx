@@ -1,16 +1,11 @@
-package com.popcap.flash.games.pvz.resources
-;
-   import mx.core.SoundAsset;
-   
-   @:meta(Embed(source="/_assets/57_com.popcap.flash.games.pvz.resources.PVZSoundLoader_SOUND_SQUASH_HMM_CLASS_com.popcap.flash.games.pvz.resources.PVZSoundLoader_SOUND_SQUASH_HMM_CLASS.mp3"))
-    class PVZSoundLoader_SOUND_SQUASH_HMM_CLASS extends SoundAsset
-   {
-       
-      
-      public function new()
-      {
-      	super();
-         //super();
-      }
-   }
+package com.popcap.flash.games.pvz.resources;
 
+import mx.core.SoundAsset;
+
+@:meta(Embed(source = "/_assets/57_com.popcap.flash.games.pvz.resources.PVZSoundLoader_SOUND_SQUASH_HMM_CLASS_com.popcap.flash.games.pvz.resources.PVZSoundLoader_SOUND_SQUASH_HMM_CLASS.mp3"))
+class PVZSoundLoader_SOUND_SQUASH_HMM_CLASS extends SoundAsset {
+	public function new() {
+		super();
+		// super();
+	}
+}
