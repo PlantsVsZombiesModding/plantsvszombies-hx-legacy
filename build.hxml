@@ -1,0 +1,18 @@
+-cp src
+-lib format
+-D no-copt
+
+-D analyzer-optimize
+
+# --macro nullSafety("ax3")
+
+-main ax3.Main
+
+-java java_out
+-D jvm
+
+# -debug
+# -cmd cp java_out/Main-debug.jar converter.jar
+-cmd cp java_out/Main.jar converter.jar
+
+# -cmd java -jar converter.jar config-local.json

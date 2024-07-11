@@ -1,0 +1,26 @@
+-D no-deprecation-warnings
+-cp compat
+-cp compat-test
+-lib utest
+-lib openfl
+-lib lime
+-D nocffi
+-D disable-cffi
+-lib hxnodejs
+-main Main
+-js test.js
+--remap flash:openfl
+-D analyzer-optimize
+
+-cmd node test.js
+
+--next
+
+-cp compat
+-cp compat-test
+-lib utest
+-lib openfl
+-main Main
+-swf test.swf
+
+-cmd test.swf
